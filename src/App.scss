@@ -15,10 +15,11 @@ body {
   #events {
     display: flex;
     width: 100%;
-    height: 56px;
     background-color: white;
     overflow-x: auto;
     overflow-y: hidden;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
 
     &.full {
       height: 300px;
@@ -29,131 +30,97 @@ body {
     }
 
     .element {
-      display: inline-flex;
+      display: flex;
+      flex-direction: column;
       height: 100%;
       border-right: 1px solid rgba(0, 0, 0, .12);
       padding-right: 4px;
 
       .date {
-        padding: 8px 8px 8px 18px;
-        text-align: center;
+        padding: 8px 8px 8px 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
         .day {
           font-size: 24px;
           height: 24px;
         }
       }
-      #event {
+
+      .row {
         display: flex;
-        padding: 8px 8px 8px 12px;
-        background-position: center;
-        transition: background 0.8s;
+        align-items: center;
+        height: 60px;
+        margin: 4px 0;
+        background-color: white;
 
-        .time {
-          display: none;
-        }
-
-        &:hover {
-          background: #f7f7f7 radial-gradient(circle, transparent 1%, #fff 1%) center/15000%;
-        }
-        &:active {
-          background-color: #f7f7f7;
-          background-size: 100%;
-          transition: background 0s;
-        }
-
-        &.full {
-          display: none;
-        }
-
-        .spacing {
-          width: 8px;
+        .column {
           display: flex;
+          flex-direction: column;
+          height: 100%;
           justify-content: center;
-          margin-top: -2px;
-        }
-
-        .team {
-          text-align: center;
-
-          .name {
-            font-size: 12px;
-          }
-          .flag-icon {
-            border-radius: 3px;
-            margin-top: 2px;
-            zoom: 1.8;
-            position: relative;
-
-            .score {
-              display: none;
-              font-weight: bolder;
-              font-size: 8px;
-              top: 0;
-              z-index: 2;
-              justify-content: center;
-              width: 100%;
-              position: absolute;
-            }
-
-            &.show { // for showing results
-              &:after {
-                content: "";
-                z-index: 1;
-                display: block;
-                position: absolute;
-                height: 100%;
-                top: 0;
-                left: 0;
-                right: 0;
-                background: rgba(255, 255, 255, 0.9);
-              }
-
-              .score {
-                display: block;
-              }
-            }
-
-            &.no-flag {
-              background-color: lightgrey;
-            }
-          }
-        }
-      }
-    }
-  }
-  &.toggled {
-    #events {
-      height: 300px;
-      .element {
-        flex-direction: column;
-
-        #event {
+          padding: 0 8px;
+          background-position: center;
+          transition: background 0.8s;
 
           .time {
-            display: flex;
-            justify-content: center;
-            font-size: 12px;
-            color: rgba(0,0,0,.54);
-            writing-mode: tb-rl;
-            transform: scale(-1);
-            margin-right: 7px;
+            //display: none;
+          }
+          &.team {
+            min-width: 30px;
           }
 
-          &.full {
-            display: flex;
-          }
-        }
 
-        .date {
-          padding: 8px 0 8px 0px;
+          .cell {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            height: 50%;
+
+            .name {
+              font-size: 12px;
+            }
+            .flag-icon {
+              border-radius: 3px;
+              zoom: 1.8;
+              position: relative;
+
+              .score {
+                display: none;
+                font-weight: bolder;
+                font-size: 8px;
+                top: 0;
+                z-index: 2;
+                justify-content: center;
+                width: 100%;
+                position: absolute;
+              }
+
+              &.show { // for showing results
+                &:after {
+                  content: "";
+                  z-index: 1;
+                  display: block;
+                  position: absolute;
+                  height: 100%;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  background: rgba(255, 255, 255, 0.9);
+                }
+
+                .score {
+                  display: block;
+                }
+              }
+
+              &.no-flag {
+                background-color: lightgrey;
+              }
+            }
+          }
         }
       }
-    }
-    #more-icon {
-      -ms-transform: rotate(-90deg);
-      -moz-transform: rotate(-90deg);
-      -webkit-transform: rotate(-90deg);
-      transform: rotate(-90deg);
     }
   }
 }

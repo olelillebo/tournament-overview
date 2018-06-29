@@ -3574,8 +3574,6 @@ class EventList extends Component {
 
     render() {
         const matchList = this.subComponent();
-        console.log(matchList)
-
         const matchList2 = matchList.map((day, i) => {
 
             return (
@@ -3589,33 +3587,94 @@ class EventList extends Component {
                         </div>
                     </div>
 
-
                     {day.events.map((match, j) => {
-                        const test = this.eventStatus(match);
-                        console.log(test)
                         return (
                             <div>
-                               <div id="event">
-                                    <div className="time">{moment(match.datetime).format('HH:mm')}</div>
-                                    <div className="team">
-                                        <div className="name">
-                                            {match.home_team.code}
+                                <div className="row">
+                                    <div className="column">
+                                        <div className="time">{moment(match.datetime).format('HH:mm')}</div>
+                                    </div>
+                                    <div className="column">
+                                        <div className="cell">
+                                            <div
+                                                className={[this.getCountryCode.call(this, match.home_team.country), "flag-icon-squared flag flag-icon flag-icon"].join(' ')}>
+                                            </div>
                                         </div>
-                                        <div
-                                            className={[this.getCountryCode.call(this, match.home_team.country), "flag-icon-squared flag flag-icon flag-icon " + this.eventStatus(match)].join(' ')}>
-                                            <div className="score">{match.home_team.goals}</div>
+                                        <div className="cell">
+                                            <div
+                                                className={[this.getCountryCode.call(this, match.away_team.country), "flag-icon-squared flag flag-icon flag-icon"].join(' ')}>
+                                            </div>
                                         </div>
                                     </div>
-                                   <div className="spacing">-</div>
-                                    <div className="team">
-                                        <div className="name">
-                                            {match.away_team.code}
+                                    <div className="column">
+                                        <div className="cell">
+                                            <div
+                                                className={this.eventStatus(match)}>
+                                                <div className="score">{match.home_team.goals}</div>
+                                            </div>
                                         </div>
-                                        <div
-                                            className={[this.getCountryCode.call(this, match.away_team.country), "flag-icon-squared flag flag-icon flag-icon " + this.eventStatus(match)].join(' ')}>
-                                            <div className="score">{match.away_team.goals}</div>
+                                        <div className="cell">
+                                            <div
+                                                className={this.eventStatus(match)}>
+                                                <div className="score">{match.away_team.goals}</div>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div className="column team">
+                                        <div className="cell">
+                                            <div className="name">
+                                                {match.home_team.code}
+                                            </div>
+                                        </div>
+                                        <div className="cell">
+                                            <div className="name">
+                                                {match.away_team.code}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="column">
+                                        <div className="time">{match.location}</div>
+                                    </div>
+                                    <div className="column">
+                                        <div className="time">{match.attendance}</div>
+                                    </div>
+
+                                    /*check if pre or upcoming (true/false)
+                                    <div className="column team">
+                                        <div className="cell">
+                                            <div className="name">
+                                                {match.home_team_statistics.attempts_on_goal}
+                                            </div>
+                                        </div>
+                                        <div className="cell">
+                                            <div className="name">
+                                                {match.away_team_statistics.attempts_on_goal}
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+{/*                                    "attempts_on_goal": 13,
+                                    "on_target": 7,
+                                    "off_target": 3,
+                                    "blocked": 3,
+                                    "woodwork": 0,
+                                    "corners": 6,
+                                    "offsides": 3,
+                                    "ball_possession": 40,
+                                    "pass_accuracy": 78,
+                                    "num_passes": 306,
+                                    "passes_completed": 240,
+                                    "distance_covered": 118,
+                                    "balls_recovered": 53,
+                                    "tackles": 9,
+                                    "clearances": 19,
+                                    "yellow_cards": 1,
+                                    "red_cards": 0,
+                                    "fouls_committed": 22,
+                                    "tactics": "4-2-3-1",*/}
                                 </div>
                             </div>
                         );
@@ -3623,7 +3682,7 @@ class EventList extends Component {
             </div>
             )
         })
-        
+
         return (
             <div>
                 <div className="header">
@@ -3685,5 +3744,6 @@ class EventList extends Component {
         window.open('https://www.leovegas.com/en-de/sportsbook#event/'+eventID);
     }
 }
+
 
 export default EventList;

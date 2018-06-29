@@ -13,98 +13,79 @@ body {
   #wrapper #events {
     display: flex;
     width: 100%;
-    height: 56px;
     background-color: white;
     overflow-x: auto;
-    overflow-y: hidden; }
+    overflow-y: hidden;
+    flex-direction: column;
+    background-color: #f7f7f7; }
     #wrapper #events.full {
       height: 300px; }
     #wrapper #events::-webkit-scrollbar {
       display: none; }
     #wrapper #events .element {
-      display: inline-flex;
+      display: flex;
+      flex-direction: column;
       height: 100%;
       border-right: 1px solid rgba(0, 0, 0, 0.12);
       padding-right: 4px; }
       #wrapper #events .element .date {
-        padding: 8px 8px 8px 18px;
-        text-align: center; }
+        padding: 8px 8px 8px 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: start; }
         #wrapper #events .element .date .day {
           font-size: 24px;
           height: 24px; }
-      #wrapper #events .element #event {
+      #wrapper #events .element .row {
         display: flex;
-        padding: 8px 8px 8px 12px;
-        background-position: center;
-        transition: background 0.8s; }
-        #wrapper #events .element #event .time {
-          display: none; }
-        #wrapper #events .element #event:hover {
-          background: #f7f7f7 radial-gradient(circle, transparent 1%, #fff 1%) center/15000%; }
-        #wrapper #events .element #event:active {
-          background-color: #f7f7f7;
-          background-size: 100%;
-          transition: background 0s; }
-        #wrapper #events .element #event.full {
-          display: none; }
-        #wrapper #events .element #event .spacing {
-          width: 8px;
+        align-items: center;
+        height: 60px;
+        margin: 4px 0;
+        background-color: white; }
+        #wrapper #events .element .row .column {
           display: flex;
+          flex-direction: column;
+          height: 100%;
           justify-content: center;
-          margin-top: -2px; }
-        #wrapper #events .element #event .team {
-          text-align: center; }
-          #wrapper #events .element #event .team .name {
-            font-size: 12px; }
-          #wrapper #events .element #event .team .flag-icon {
-            border-radius: 3px;
-            margin-top: 2px;
-            zoom: 1.8;
-            position: relative; }
-            #wrapper #events .element #event .team .flag-icon .score {
-              display: none;
-              font-weight: bolder;
-              font-size: 8px;
-              top: 0;
-              z-index: 2;
-              justify-content: center;
-              width: 100%;
-              position: absolute; }
-            #wrapper #events .element #event .team .flag-icon.show:after {
-              content: "";
-              z-index: 1;
-              display: block;
-              position: absolute;
-              height: 100%;
-              top: 0;
-              left: 0;
-              right: 0;
-              background: rgba(255, 255, 255, 0.9); }
-            #wrapper #events .element #event .team .flag-icon.show .score {
-              display: block; }
-            #wrapper #events .element #event .team .flag-icon.no-flag {
-              background-color: lightgrey; }
-  #wrapper.toggled #events {
-    height: 300px; }
-    #wrapper.toggled #events .element {
-      flex-direction: column; }
-      #wrapper.toggled #events .element #event .time {
-        display: flex;
-        justify-content: center;
-        font-size: 12px;
-        color: rgba(0, 0, 0, 0.54);
-        writing-mode: tb-rl;
-        transform: scale(-1);
-        margin-right: 7px; }
-      #wrapper.toggled #events .element #event.full {
-        display: flex; }
-      #wrapper.toggled #events .element .date {
-        padding: 8px 0 8px 0px; }
-  #wrapper.toggled #more-icon {
-    -ms-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg); }
+          padding: 0 8px;
+          background-position: center;
+          transition: background 0.8s; }
+          #wrapper #events .element .row .column.team {
+            min-width: 30px; }
+          #wrapper #events .element .row .column .cell {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            height: 50%; }
+            #wrapper #events .element .row .column .cell .name {
+              font-size: 12px; }
+            #wrapper #events .element .row .column .cell .flag-icon {
+              border-radius: 3px;
+              zoom: 1.8;
+              position: relative; }
+              #wrapper #events .element .row .column .cell .flag-icon .score {
+                display: none;
+                font-weight: bolder;
+                font-size: 8px;
+                top: 0;
+                z-index: 2;
+                justify-content: center;
+                width: 100%;
+                position: absolute; }
+              #wrapper #events .element .row .column .cell .flag-icon.show:after {
+                content: "";
+                z-index: 1;
+                display: block;
+                position: absolute;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                background: rgba(255, 255, 255, 0.9); }
+              #wrapper #events .element .row .column .cell .flag-icon.show .score {
+                display: block; }
+              #wrapper #events .element .row .column .cell .flag-icon.no-flag {
+                background-color: lightgrey; }
 
 #more {
   display: flex;
