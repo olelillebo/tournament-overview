@@ -50,8 +50,14 @@ body {
           padding: 0 8px;
           background-position: center;
           transition: background 0.8s; }
-          #wrapper #events .element .row .column.team {
+          #wrapper #events .element .row .column.big {
+            min-width: 130px; }
+          #wrapper #events .element .row .column.medium {
+            min-width: 70px; }
+          #wrapper #events .element .row .column.small {
             min-width: 30px; }
+          #wrapper #events .element .row .column.hide {
+            display: none; }
           #wrapper #events .element .row .column .cell {
             display: flex;
             text-align: center;

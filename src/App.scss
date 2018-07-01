@@ -66,8 +66,18 @@ body {
           .time {
             //display: none;
           }
-          &.team {
+          &.big {
+            min-width: 130px;
+          }
+          &.medium {
+            min-width: 70px;
+          }
+          &.small {
             min-width: 30px;
+          }
+
+          &.hide {
+            display: none;
           }
 
 
