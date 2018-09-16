@@ -1,0 +1,6365 @@
+[
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "85643171.1529438696",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 5,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "918177778.1525604877",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 4,
+   "Avg. Value": 0.75
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "773414104.1532106841",
+   "Country": "Canada",
+   "Date": "20180910",
+   "Total Events": 3,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "780191472.1536860902",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 3,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "918177778.1525604877",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 3,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "392642773.1535473304",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1044173062.1531838509",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "128546468.1502205626",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1309712104.1503320107",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1378134684.1521779485",
+   "Country": "Netherlands",
+   "Date": "20180912",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1599403970.1535895150",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 2,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1613731482.1517387872",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1876382715.1533643315",
+   "Country": "Denmark",
+   "Date": "20180915",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1999611771.1536937851",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 2,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "325893946.1532130369",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "337461464.1529229043",
+   "Country": "Denmark",
+   "Date": "20180911",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "361430037.1516101043",
+   "Country": "United Kingdom",
+   "Date": "20180911",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "397294966.1489412914",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "397294966.1489412914",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 2,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "409240406.1535646508",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "598268600.1536316814",
+   "Country": "Denmark",
+   "Date": "20180911",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "659760462.1531743925",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "726764186.1521510348",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 2,
+   "Avg. Value": 0.5
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "770556805.1490552322",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "8797076.1508581250",
+   "Country": "Canada",
+   "Date": "20180909",
+   "Total Events": 2,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "8797076.1508581250",
+   "Country": "Canada",
+   "Date": "20180910",
+   "Total Events": 2,
+   "Avg. Value": 0.5
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "918177778.1525604877",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Selbstverständlich",
+   "Device Category": "tablet",
+   "client id": "1467594182.1536624347",
+   "Country": "Germany",
+   "Date": "20180911",
+   "Total Events": 2,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "(not set)",
+   "Device Category": "mobile",
+   "client id": "1170197927.1536994687",
+   "Country": "Germany",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "(not set)",
+   "Device Category": "mobile",
+   "client id": "512721333.1535892911",
+   "Country": "Finland",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "(not set)",
+   "Device Category": "mobile",
+   "client id": "570288668.1532684462",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "👌🏽👌🏽",
+   "Device Category": "mobile",
+   "client id": "621661773.1536771024",
+   "Country": "Netherlands",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "100",
+   "Device Category": "mobile",
+   "client id": "2050611023.1536789642",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "1st point for tennis should always be an option to pick",
+   "Device Category": "mobile",
+   "client id": "8797076.1508581250",
+   "Country": "Canada",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "A was promised 3 match bet if ad one ad 50 palace game lost no 3bet reward",
+   "Device Category": "mobile",
+   "client id": "1811231853.1534513538",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Alles top",
+   "Device Category": "mobile",
+   "client id": "506458011.1536962265",
+   "Country": "Germany",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Any chance you’re going tomorrow start trading thr darts in-play? It’s the quarter-finals and you’ve just sacked it off, worrying.",
+   "Device Category": "mobile",
+   "client id": "869368432.1522664036",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Appen laggar o hänger sig",
+   "Device Category": "mobile",
+   "client id": "143151089.1536604979",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Bad",
+   "Device Category": "mobile",
+   "client id": "926034308.1536349713",
+   "Country": "Canada",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Bästa bonusspelet på hela webben.",
+   "Device Category": "mobile",
+   "client id": "334176632.1536949763",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Bästa sidan!",
+   "Device Category": "mobile",
+   "client id": "856680872.1515265852",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Been trying to place free bet for 3 hours spoke to 4 different people ! Rubbish site 0-10",
+   "Device Category": "mobile",
+   "client id": "1085443424.1536929731",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Beste Quote",
+   "Device Category": "mobile",
+   "client id": "435422401.1516540834",
+   "Country": "Germany",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Bra",
+   "Device Category": "mobile",
+   "client id": "1911514904.1536902937",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Bra",
+   "Device Category": "mobile",
+   "client id": "655397209.1536750485",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Bra",
+   "Device Category": "mobile",
+   "client id": "992434829.1499036181",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "BRA",
+   "Device Category": "desktop",
+   "client id": "94567762.1532418786",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Bra app, snygg layout och riktigt bra utbud tillsammans med spännande tävlingar.",
+   "Device Category": "mobile",
+   "client id": "1166537348.1529294230",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Bra odds",
+   "Device Category": "mobile",
+   "client id": "1962157667.1532927395",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Bra sökfunktion, enkelt att hitta de olka alternativen som erbjuds. Skulle kanske vilja ha lite bättre utbud på framförallt fotboll med fler alternativ",
+   "Device Category": "mobile",
+   "client id": "false",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Bra spel",
+   "Device Category": "mobile",
+   "client id": "85643171.1529438696",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Bra utbud",
+   "Device Category": "desktop",
+   "client id": "1857298529.1534874448",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Bra utbud",
+   "Device Category": "mobile",
+   "client id": "1803570208.1530377319",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Bunch of assholes, you take games off live betting way too early, just remove them entirely instead of giving people the thought that it’s there and can be bet on....",
+   "Device Category": "mobile",
+   "client id": "1225182156.1536791651",
+   "Country": "Canada",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "By",
+   "Device Category": "mobile",
+   "client id": "1277239596.1534353575",
+   "Country": "Canada",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "By leovegas",
+   "Device Category": "mobile",
+   "client id": "1277239596.1534353575",
+   "Country": "Canada",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "C",
+   "Device Category": "mobile",
+   "client id": "471216169.1533397473",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Can't even watch a horse race when you have money on it no live stream",
+   "Device Category": "mobile",
+   "client id": "1997411176.1536757632",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Can’t use my free bet on any normal sport as it says",
+   "Device Category": "mobile",
+   "client id": "1317189975.1472507013",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Cleant!",
+   "Device Category": "mobile",
+   "client id": "1371760726.1504802763",
+   "Country": "Norway",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "COS I lost",
+   "Device Category": "mobile",
+   "client id": "803597875.1536682337",
+   "Country": "United Kingdom",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "dålig cashout som inte fungerar",
+   "Device Category": "desktop",
+   "client id": "1786911889.1535996530",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Dårlig system for å velge kamper i sportsspill. Får ikke velge kmper etter kronologisk start er en stor svakhet. For mange trykk for å finne aktuelle kamper.",
+   "Device Category": "desktop",
+   "client id": "351569617.1522422718",
+   "Country": "Norway",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "dårlig utvalg",
+   "Device Category": "desktop",
+   "client id": "221247285.1523846917",
+   "Country": "Norway",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "dejligt design man har ikke lyst at stoppe være her",
+   "Device Category": "mobile",
+   "client id": "1368230226.1536992825",
+   "Country": "Denmark",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Der Support ist sehr freundlich und die App arbeit sehr gut und schnell",
+   "Device Category": "mobile",
+   "client id": "472846134.1534005318",
+   "Country": "Germany",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Det ända som saknas är att om man går ut från appen och tillbaka så kommer man alltid tillbaka till startsidan och måste då leta upp matchen man hade uppe igen :(",
+   "Device Category": "mobile",
+   "client id": "1094438039.1502622725",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Die Seite ist echt super als willkommen Bonus bekommt man freispiele und bei denn meisten gibst so was nicht",
+   "Device Category": "mobile",
+   "client id": "1396949178.1536900685",
+   "Country": "Germany",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Dumt man ikke kan se resulterer osv på lappen du har levert.. Om det eksempel er chealsea-United Kunne det stått chealsea-United (1-2) 2.omgang pågår",
+   "Device Category": "mobile",
+   "client id": "1205197206.1535121486",
+   "Country": "Norway",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Ekstrem dårlig og langsom menu. Dårligt overblik over spil",
+   "Device Category": "mobile",
+   "client id": "2147329908.1506708196",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Elsker jeres casino det er mega gode maskiner og alt muligt andet der hvor det kikser for jer er specielt sporten ens væddemål tager flere timer eller dage om at være færdig efter kampene samt der er for lidt udfald tingene er kl stang suspenderet",
+   "Device Category": "mobile",
+   "client id": "1405629378.1509490788",
+   "Country": "Denmark",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1027317489.1532969943",
+   "Country": "Norway",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1082520886.1518622498",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1084658684.1534696388",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1108300672.1536439065",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1155070966.1536404967",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1249158552.1516302584",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1249158552.1516302584",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1269749661.1532509774",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1299592775.1524850833",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1310263410.1535283435",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1361569222.1530892976",
+   "Country": "Norway",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1427478545.1530435872",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1427478545.1530435872",
+   "Country": "Finland",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1494296287.1533913649",
+   "Country": "Finland",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1544777996.1521415752",
+   "Country": "Finland",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1555799881.1491300162",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1680184011.1530036413",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1688248299.1536524600",
+   "Country": "Norway",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1728406356.1502695034",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1739242267.1536931778",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1742404313.1536096921",
+   "Country": "Malta",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1810634255.1536259702",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1810634255.1536259702",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1955392802.1530641954",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "1970301482.1536570322",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "202497.1536851402",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "2043808961.1536493627",
+   "Country": "United Arab Emirates",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "206399799.1536181853",
+   "Country": "Germany",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "2093359550.1483896651",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "2118966314.1536502297",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "258820220.1459175443",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "30760980.1510677284",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "356812892.1527839744",
+   "Country": "Netherlands",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "359607147.1534250673",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "376199490.1535362564",
+   "Country": "Netherlands",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "424640373.1532737442",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "428956353.1536958595",
+   "Country": "Norway",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "524264120.1534948794",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "537257019.1535984775",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "605766161.1535548793",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "607491612.1536779777",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "644392071.1530211513",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "699877983.1521095297",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "70268666.1536086734",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "722255054.1536701835",
+   "Country": "United Kingdom",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "728389272.1536183415",
+   "Country": "Norway",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "72852904.1530902914",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "760459348.1529347423",
+   "Country": "Netherlands",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "76128769.1531883684",
+   "Country": "Finland",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "762816781.1532353061",
+   "Country": "Norway",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "827749698.1513591586",
+   "Country": "Netherlands",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "desktop",
+   "client id": "835911665.1533339171",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1000901744.1532587635",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1003874895.1535804964",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1009279127.1537052875",
+   "Country": "Netherlands",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1020030682.1506761026",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1028638128.1536982108",
+   "Country": "Germany",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1036158785.1511702139",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1040742932.1535069687",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1046003888.1536345011",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1050023850.1534355649",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1055662392.1536957243",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1059172036.1535919107",
+   "Country": "United Kingdom",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1059365486.1522479278",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1078410301.1527159856",
+   "Country": "Finland",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1092854655.1534026114",
+   "Country": "Canada",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1094438039.1502622725",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1102494489.1509662435",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1109981200.1534422058",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1117435636.1525199828",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1120924361.1507192790",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1129107683.1528989003",
+   "Country": "Denmark",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1136854912.1495040430",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1140195788.1528304401",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1140504498.1536489032",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1150156589.1536624011",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1152904361.1492118337",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1158500486.1525359917",
+   "Country": "Denmark",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1165765018.1536588431",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1166966370.1537049892",
+   "Country": "Netherlands",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1173595115.1536371219",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1190779628.1536598201",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1193130209.1519488383",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1197038695.1535615533",
+   "Country": "Denmark",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1201460211.1529904687",
+   "Country": "Finland",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1206512080.1531945211",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1207206534.1536593996",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1207206534.1536593996",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1210132815.1535906300",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1213213157.1492265839",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1213503883.1536811748",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1215928734.1536515044",
+   "Country": "Finland",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1223443410.1536321288",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1225182156.1536791651",
+   "Country": "Canada",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "123212054.1536999012",
+   "Country": "Canada",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1235004081.1508049710",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1236793825.1527176060",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1247989215.1528541809",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1253684655.1537009370",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1254717402.1528386398",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1254717402.1528386398",
+   "Country": "Denmark",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1259212187.1536414733",
+   "Country": "Netherlands",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1266144355.1526567079",
+   "Country": "Germany",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "12710118.1517479928",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "12710118.1517479928",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1277239596.1534353575",
+   "Country": "Canada",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "128105612.1493013091",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1281163805.1535580850",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1283782969.1536955475",
+   "Country": "Germany",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "128477402.1536040900",
+   "Country": "Netherlands",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1286487790.1532451736",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1289254022.1502382887",
+   "Country": "Norway",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "129011398.1536860698",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1291030702.1529755141",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1292102024.1525097157",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1298271747.1513856222",
+   "Country": "Netherlands",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1301545491.1518283333",
+   "Country": "Norway",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1304073483.1536246495",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1313972621.1512830968",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1325998475.1519336776",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1325998475.1519336776",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1325998475.1519336776",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1326064496.1537042206",
+   "Country": "Netherlands",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1326315300.1506685417",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1329543759.1536481226",
+   "Country": "Canada",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1341470956.1535718155",
+   "Country": "Germany",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1344736968.1536447109",
+   "Country": "Germany",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1346155028.1488389680",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1347121484.1536409087",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1349308525.1521134489",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1359124462.1536963034",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1362093975.1536184431",
+   "Country": "Malta",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1363356281.1523890922",
+   "Country": "Germany",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1378211782.1505758615",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1378211782.1505758615",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1381043508.1535904520",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1381911855.1526917397",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1387529780.1527763145",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1392453850.1499415004",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "139322658.1521802457",
+   "Country": "Norway",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1394329869.1521573365",
+   "Country": "Germany",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1417346709.1536512056",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1420971133.1505893388",
+   "Country": "Denmark",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1422790241.1530427499",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1422848541.1535821559",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1422848560.1534675872",
+   "Country": "Norway",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1425726434.1536880511",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1428224360.1530242254",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1438872536.1533993182",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1440828561.1535462723",
+   "Country": "United Kingdom",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1445525639.1535669495",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1451758924.1417968998",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1457607919.1536745163",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1469148602.1536753727",
+   "Country": "Germany",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1476889017.1526932435",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "148640533.1458415581",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1486944200.1529425211",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1491124110.1394375488",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1492374664.1530279160",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "149450823.1534780108",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1499636354.1528622087",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1503343558.1536590902",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1509341165.1536482026",
+   "Country": "Germany",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1512405329.1533103116",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "151355910.1527321750",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1514142677.1536665308",
+   "Country": "Finland",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1515735733.1536515735",
+   "Country": "Germany",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1519901399.1522427442",
+   "Country": "Netherlands",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1526498148.1536518731",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1538584506.1534207865",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "153968132.1535047124",
+   "Country": "Denmark",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "154865820.1534345434",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1557259255.1525801694",
+   "Country": "Denmark",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1570821538.1530707485",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1572735210.1517423723",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1576080799.1527187406",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1579100410.1525636921",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1585450269.1536474045",
+   "Country": "Germany",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1587290124.1533379913",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1587518002.1526410438",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "158824695.1536994801",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1589773232.1532873087",
+   "Country": "Netherlands",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1591681395.1535639496",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1602677384.1531799822",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1607002722.1488906789",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1613829020.1536899094",
+   "Country": "Canada",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1626301754.1536604524",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1628591593.1536009682",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1634737850.1535919507",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1635147963.1505148234",
+   "Country": "Norway",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "164607040.1536869321",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "164853184.1536657782",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1651342579.1518952481",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1657600857.1523482761",
+   "Country": "Denmark",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1658810835.1536451141",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1664108310.1536519163",
+   "Country": "Ireland",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1665148496.1510389749",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1677447389.1536258871",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1677607682.1531151897",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1678247592.1523611295",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1683425202.1532571661",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1687162589.1525412241",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1692277426.1529493400",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1700270960.1532027382",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1701154133.1511692967",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1702708775.1527774556",
+   "Country": "Finland",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1707671529.1536963205",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "171158699.1536529747",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1719217207.1537005678",
+   "Country": "Finland",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1728696965.1534857611",
+   "Country": "Finland",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1729426976.1524947871",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1733772319.1536870364",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1735272344.1531666522",
+   "Country": "United Kingdom",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "173650688.1515968233",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1749386398.1536902139",
+   "Country": "Netherlands",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "175034561.1518959454",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1754399742.1516367536",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1758398306.1536582568",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1767823142.1528796471",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1768822350.1536605886",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1775810493.1533828068",
+   "Country": "Denmark",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1778121438.1536600361",
+   "Country": "Netherlands",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1800281052.1535375607",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1800309427.1535821895",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1806198471.1536851377",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1813618756.1527052757",
+   "Country": "Finland",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1815300334.1535214387",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1815300334.1535214387",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "182308699.1536604629",
+   "Country": "Netherlands",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1824092204.1535371891",
+   "Country": "Germany",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1825027457.1527720711",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1829583468.1536482481",
+   "Country": "Canada",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "183616788.1534853524",
+   "Country": "Netherlands",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1848336177.1531162430",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1850492291.1527840444",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1861857567.1532848970",
+   "Country": "Germany",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1869338761.1530457498",
+   "Country": "United Kingdom",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1878609045.1534582931",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1881422119.1535208060",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1884402209.1528616278",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1888403181.1536486457",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1888422871.1507370909",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1891763687.1536505905",
+   "Country": "Netherlands",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "189853546.1536497041",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1901235239.1509827828",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1903836048.1536875668",
+   "Country": "Germany",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1908485573.1536779224",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1908921833.1535575313",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1930564733.1472793625",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1934596989.1524857211",
+   "Country": "Finland",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "194133456.1536689003",
+   "Country": "Finland",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1948646859.1536390171",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1949730794.1536474331",
+   "Country": "Denmark",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1951063880.1516734685",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1954966215.1535558417",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1955452016.1536260058",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1959515453.1519538893",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1968374141.1536916930",
+   "Country": "Norway",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1969672299.1530239811",
+   "Country": "United Kingdom",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1972611360.1531729829",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1977196708.1536592211",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1980455514.1536991480",
+   "Country": "Canada",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1982257161.1533913356",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1988659546.1536893846",
+   "Country": "Germany",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1992662276.1518793263",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1997411176.1536757632",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "1999349388.1536998728",
+   "Country": "Norway",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2001286185.1536244521",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2004783846.1525465138",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "200732621.1506665217",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2009132426.1536159480",
+   "Country": "Denmark",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2011626069.1536773470",
+   "Country": "Germany",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2015736143.1530826507",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2028096450.1531689483",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2029274052.1536765087",
+   "Country": "Germany",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2038426296.1535716687",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2046889304.1529162536",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2063036483.1536162303",
+   "Country": "Denmark",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2063681973.1528709157",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2064030893.1533749604",
+   "Country": "United Kingdom",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2068825632.1536433433",
+   "Country": "Netherlands",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2068940038.1525157198",
+   "Country": "New Zealand",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2070662329.1536451281",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2076803685.1536963288",
+   "Country": "Denmark",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2079887711.1535583136",
+   "Country": "Finland",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2081328152.1536350397",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2081990926.1530965719",
+   "Country": "Denmark",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2093585497.1503056737",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "209529369.1504379940",
+   "Country": "Netherlands",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2096210597.1518528915",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2096210597.1518528915",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2098747783.1536433061",
+   "Country": "Netherlands",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2105902909.1536352450",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2106384319.1536731876",
+   "Country": "Germany",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2115094353.1534907533",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2115885302.1528145897",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2125082310.1534242267",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "212528535.1499103939",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2125549612.1517789259",
+   "Country": "Germany",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2129148821.1487778153",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2129148821.1487778153",
+   "Country": "Netherlands",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2131027345.1536961967",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2132560832.1536694866",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2132560832.1536694866",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2134239832.1535801579",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "2137884266.1534779612",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "221895205.1533021503",
+   "Country": "Denmark",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "228640189.1536197002",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "238232637.1536971498",
+   "Country": "Germany",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "241025030.1535970731",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "242137039.1515349728",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "254523904.1526152153",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "255540072.1536515945",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "273856828.1536097519",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "274058918.1529562353",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "274094348.1529968376",
+   "Country": "Canada",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "282047518.1535031411",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "289973522.1536771501",
+   "Country": "Denmark",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "292074535.1532284186",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "292133792.1535721447",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "294591765.1536978280",
+   "Country": "Finland",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "296896351.1531764658",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "298020228.1533921485",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "311743869.1502278170",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "314011146.1528311122",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "321191676.1536585076",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "325893946.1532130369",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "329204530.1535662181",
+   "Country": "Netherlands",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "331613041.1536783486",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "335304259.1535773093",
+   "Country": "Netherlands",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "347148785.1536263083",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "352446042.1520528653",
+   "Country": "Netherlands",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "361430037.1516101043",
+   "Country": "United Kingdom",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "364228692.1500068823",
+   "Country": "New Zealand",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "367039306.1530106826",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "369847801.1514909956",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "372971946.1536498894",
+   "Country": "Canada",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "381937385.1505565098",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "393561579.1524067232",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "397294966.1489412914",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "397294966.1489412914",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "397595232.1515648259",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "40451667.1536227184",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "40481222.1536946719",
+   "Country": "Germany",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "411228316.1519042589",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "412102905.1535834780",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "413749089.1536157626",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "423483858.1532914400",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "430148041.1534760588",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "432934946.1533458227",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "432934946.1533458227",
+   "Country": "Germany",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "432934946.1533458227",
+   "Country": "Germany",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "434069614.1536960887",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "438109889.1536986497",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "440984896.1536219604",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "441703733.1529506729",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "446887369.1534427078",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "450061818.1521294676",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "461260328.1531242380",
+   "Country": "Norway",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "472418951.1531578972",
+   "Country": "Germany",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "47257301.1536874548",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "478771995.1527703809",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "481467994.1533080075",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "485887314.1532789727",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "487169702.1535393044",
+   "Country": "Finland",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "488277780.1536836353",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "494222207.1535901421",
+   "Country": "Germany",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "495687425.1530898571",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "505097632.1536848127",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "505738399.1535900208",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "508790250.1527330707",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "514584105.1536604982",
+   "Country": "Germany",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "522192012.1524423640",
+   "Country": "Finland",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "526141674.1530188641",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "526141674.1530188641",
+   "Country": "Netherlands",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "527224104.1514809932",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "545504834.1513937936",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "550047043.1528562387",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "556303911.1536999949",
+   "Country": "United Kingdom",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "56534075.1535192294",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "589167305.1534450994",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "59139977.1507625953",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "593912262.1528804544",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "595396255.1531949439",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "602734327.1521120955",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "615209896.1524069508",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "629235465.1536643601",
+   "Country": "Germany",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "637182105.1517982175",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "647947542.1505729098",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "655397209.1536750485",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "659043321.1536962832",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "659263280.1534584752",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "659453280.1537017119",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "659500552.1535390367",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "660148108.1525605487",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "661605346.1536839391",
+   "Country": "United Kingdom",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "662458290.1536243693",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "662458290.1536243693",
+   "Country": "Denmark",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "692082342.1523638984",
+   "Country": "Denmark",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "695244935.1536317625",
+   "Country": "Canada",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "702073290.1488550707",
+   "Country": "Norway",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "702883662.1528744320",
+   "Country": "Ireland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "711903056.1528653905",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "712775433.1526534243",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "718559997.1536527055",
+   "Country": "(not set)",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "72857594.1532738185",
+   "Country": "Ireland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "736464757.1536008935",
+   "Country": "United Kingdom",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "746792983.1537017445",
+   "Country": "Canada",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "753049120.1536589825",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "759466299.1534005999",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "77130685.1536902241",
+   "Country": "Germany",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "775769509.1523201054",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "780191472.1536860902",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "787039120.1536672517",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "792765877.1530970141",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "794597545.1520369918",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "796971533.1536225786",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "804577517.1534840268",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "804577517.1534840268",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "807484928.1535839458",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "827434836.1528143598",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "833072117.1533509580",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "836766962.1519679379",
+   "Country": "Germany",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "837393482.1530890019",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "840223194.1530317738",
+   "Country": "Canada",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "840223194.1530317738",
+   "Country": "Canada",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "845491571.1536086591",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "849493205.1524610957",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "85643171.1529438696",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "856477712.1532551391",
+   "Country": "Germany",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "860882121.1532145983",
+   "Country": "Netherlands",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "863573100.1535366964",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "864477221.1536757314",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "867820069.1535380248",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "870411535.1532370762",
+   "Country": "Netherlands",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "876941543.1536536745",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "876941543.1536536745",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "8797076.1508581250",
+   "Country": "Canada",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "881026499.1536571671",
+   "Country": "Germany",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "885207611.1529244687",
+   "Country": "Denmark",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "885207611.1529244687",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "887344044.1535578235",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "900476005.1531900512",
+   "Country": "New Zealand",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "902191140.1534439307",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "905718359.1534932128",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "907107871.1536490713",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "916969969.1534968619",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "918177778.1525604877",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "918177778.1525604877",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "920268036.1523218918",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "92249245.1536688052",
+   "Country": "United Kingdom",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "92249245.1536688052",
+   "Country": "United Kingdom",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "929016119.1526074722",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "931899020.1531794244",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "931930386.1534095905",
+   "Country": "United Kingdom",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "932008128.1521155089",
+   "Country": "Norway",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "938193891.1524594960",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "938193891.1524594960",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "939983651.1535819401",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "942371494.1506325601",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "944835251.1526730884",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "945492416.1529239572",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "954016277.1519796183",
+   "Country": "Malta",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "960050920.1535983925",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "968033408.1536320547",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "972086562.1488746790",
+   "Country": "Netherlands",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "974432276.1536561742",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "974432276.1536561742",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "977489830.1533195687",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "98237177.1536929836",
+   "Country": "New Zealand",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "991675863.1536695588",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "996199998.1486409615",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "999347885.1506293541",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "mobile",
+   "client id": "false",
+   "Country": "Germany",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "1002654218.1507115995",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "1238664595.1521022520",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "1238664595.1521022520",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "1238664595.1521022520",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "1286205464.1498154030",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "1286205464.1498154030",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "1588513874.1527137066",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "1659920612.1534378458",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "1765448101.1525895793",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "2128026852.1536854647",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "316494438.1529838052",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "401632513.1536183035",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "53947573.1522269183",
+   "Country": "Canada",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "587329925.1534238882",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "672812835.1502384922",
+   "Country": "Norway",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "738346836.1536689989",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "empty string",
+   "Device Category": "tablet",
+   "client id": "956473065.1526629662",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Enkel, enkelt att hitta, enkelt att lägga bet.",
+   "Device Category": "mobile",
+   "client id": "70013525.1533650122",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Enkelt",
+   "Device Category": "mobile",
+   "client id": "767785174.1536688573",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Enkelt, och felfritt!",
+   "Device Category": "mobile",
+   "client id": "33304608.1536761944",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "enkelt, snabbt",
+   "Device Category": "mobile",
+   "client id": "271622975.1529149860",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Enkelt😄",
+   "Device Category": "mobile",
+   "client id": "1780210476.1488714930",
+   "Country": "Norway",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Everything is good overall. It would be even better if it shows the seconds. All other sports betting sites show the second. =D",
+   "Device Category": "desktop",
+   "client id": "412048316.1519456962",
+   "Country": "Canada",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Fake",
+   "Device Category": "mobile",
+   "client id": "570288668.1532684462",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Fantastisk med alle de bonusser man kan spille sig til.",
+   "Device Category": "mobile",
+   "client id": "1098231819.1511614625",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Får feks ikke satse 20 kr engang på en håndballdobbel",
+   "Device Category": "mobile",
+   "client id": "2080189894.1529582268",
+   "Country": "Norway",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "fina bonuserbjudanden samt erbjuder odds även på trav",
+   "Device Category": "mobile",
+   "client id": "1347049955.1527323097",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Finns inte så stort utval av ligor och divisioner. Plus att andra spelaidor har mycket bättre kickbacks (bonusar), lojalitetsbonusar osv",
+   "Device Category": "mobile",
+   "client id": "101177714.1536282658",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "För att jag känner pengar",
+   "Device Category": "mobile",
+   "client id": "1352830558.1536857354",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "För de najs 😏",
+   "Device Category": "mobile",
+   "client id": "1321141090.1536669554",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "For få muligheder for at spille flere ting på samme kamp! Kom ind i kampen alle andre spiludbyder har det!",
+   "Device Category": "mobile",
+   "client id": "839359903.1533924250",
+   "Country": "Denmark",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "För minsta man måste lägga in är 100kr",
+   "Device Category": "mobile",
+   "client id": "791601567.1536604064",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Fordi udvalget er småt . Både kampe og selve oddsene.. og jeres gamle side var meget bedre, end den nye. Den er forvirrende",
+   "Device Category": "mobile",
+   "client id": "753049120.1536589825",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Fotbollsmatchen jag spelat på försvann. Fick ingen notis ingenting 😒",
+   "Device Category": "mobile",
+   "client id": "1102828621.1536927756",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Ganske forvirrende sports del. Vansklig finne frem til kamper",
+   "Device Category": "mobile",
+   "client id": "9923413.1535404155",
+   "Country": "Norway",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Går nästan aldrig att casha ut men annars bra!",
+   "Device Category": "mobile",
+   "client id": "636709971.1535787398",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Geringe Auswahl bei Basketball",
+   "Device Category": "mobile",
+   "client id": "1400927773.1535363930",
+   "Country": "Germany",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Gg",
+   "Device Category": "tablet",
+   "client id": "1286205464.1498154030",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Gjk",
+   "Device Category": "mobile",
+   "client id": "726666277.1530198944",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Goalz",
+   "Device Category": "mobile",
+   "client id": "1983727386.1534190130",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "gode odds, bra organisert nettside",
+   "Device Category": "desktop",
+   "client id": "963606971.1524601693",
+   "Country": "Norway",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "good",
+   "Device Category": "mobile",
+   "client id": "118429032.1535054900",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "good",
+   "Device Category": "tablet",
+   "client id": "2039168605.1527419240",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Good",
+   "Device Category": "mobile",
+   "client id": "2028960572.1536583911",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "GOOD",
+   "Device Category": "tablet",
+   "client id": "815784708.1536665351",
+   "Country": "Canada",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Good lay-out",
+   "Device Category": "mobile",
+   "client id": "434402003.1530979247",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Good site but want more free bets",
+   "Device Category": "mobile",
+   "client id": "282127901.1533297489",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Great app",
+   "Device Category": "mobile",
+   "client id": "475907955.1533453976",
+   "Country": "United Kingdom",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Great customer service, payouts are quick, live betting.",
+   "Device Category": "mobile",
+   "client id": "1231677583.1523280928",
+   "Country": "Canada",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Greit",
+   "Device Category": "mobile",
+   "client id": "1970688837.1536265733",
+   "Country": "Norway",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Gute boni",
+   "Device Category": "mobile",
+   "client id": "129570326.1536837947",
+   "Country": "Germany",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Handboll !!",
+   "Device Category": "mobile",
+   "client id": "759272247.1528213985",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Händer alltid något oväntat",
+   "Device Category": "mobile",
+   "client id": "74337926.1530899891",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Har spelat jätte mycket pengar utan att få spela eller vinster 😡",
+   "Device Category": "mobile",
+   "client id": "1950120323.1536429464",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Har spirit her en stund men føler dere ikke setter riktig odds. Når dere setter et lag med1,09 i odds og det andre med 4.5 eller mer og at de med 4.5 i odds eller mer vinner hver gang er det noe galt.hilsen Kåre bjørn Hansen.",
+   "Device Category": "mobile",
+   "client id": "2087107040.1534575547",
+   "Country": "Norway",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Hard to figure out log in",
+   "Device Category": "mobile",
+   "client id": "1951653165.1536733982",
+   "Country": "Canada",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Hard to search leagues sports etc. Not categorized too well",
+   "Device Category": "mobile",
+   "client id": "1790823353.1525906456",
+   "Country": "Canada",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Het is overzichtelijk",
+   "Device Category": "mobile",
+   "client id": "19315620.1529321389",
+   "Country": "Netherlands",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "hope you doing well,been a while since you offer 100%bonus or any bonus,bonus would be nice,thanks and hope you have a great weekend.",
+   "Device Category": "desktop",
+   "client id": "904764858.1537040972",
+   "Country": "Canada",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Hurtigere afgørelse af væddemål, som står åbne mere end 24 timer",
+   "Device Category": "mobile",
+   "client id": "1387529780.1527763145",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Hvergang man går tilbage, så går den HELT TILBAGE! og det er skide irriterende...",
+   "Device Category": "mobile",
+   "client id": "2023120759.1532776716",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "hyvä pelivalikoima",
+   "Device Category": "desktop",
+   "client id": "1458159642.1536666260",
+   "Country": "Finland",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Hyvät edut ja pelivalikoima",
+   "Device Category": "tablet",
+   "client id": "11820323.1533650146",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Hyvin toimii... Alkuun sovellus oli hidas eikä päivittynyt..",
+   "Device Category": "mobile",
+   "client id": "1919837847.1536919992",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "I can not bet more than 5 euros. I choose 3 teams but max amount what I can bet is 5 euros. That’s disappointing",
+   "Device Category": "mobile",
+   "client id": "1317830330.1534598720",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "I enjoy in play betting and leovegas offer a good variety of markets on live events.",
+   "Device Category": "desktop",
+   "client id": "1082520886.1518622498",
+   "Country": "United Kingdom",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "I got a free bet and dont no how to use it",
+   "Device Category": "mobile",
+   "client id": "173338686.1536169774",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "I love it, very quick and easy to use.....",
+   "Device Category": "mobile",
+   "client id": "875815538.1536868513",
+   "Country": "United Kingdom",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "I make money",
+   "Device Category": "mobile",
+   "client id": "1884926350.1527096802",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "I winning 100 e i can get out can u help me please",
+   "Device Category": "mobile",
+   "client id": "1324033612.1536264798",
+   "Country": "Ireland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "I've got £50 in free bets to use on live events. But when I want to use it, it's not offered on the betslip!",
+   "Device Category": "mobile",
+   "client id": "1869458412.1536702205",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Ihan vitun paska paikka. Annetaan talletus bonukset johonkin vitun casinoon vaikka en haluisi siellä pelata.",
+   "Device Category": "mobile",
+   "client id": "614463367.1520327980",
+   "Country": "Finland",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Ishockey",
+   "Device Category": "mobile",
+   "client id": "1574338874.1537000978",
+   "Country": "Sweden",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "It is good, only long time before i get my withdraw",
+   "Device Category": "mobile",
+   "client id": "722986691.1525944625",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "It's all so easy to use",
+   "Device Category": "mobile",
+   "client id": "1306544400.1536511242",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "It’s good, only down fall I preferred set up with sky bet. So I tend to use there app more becasue if there requester bets etc.",
+   "Device Category": "mobile",
+   "client id": "37155896.1537014802",
+   "Country": "United Kingdom",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "It’s ok, but when you have open bets there are no live scores shown in the open bets menu so you have to dodge between the live menu and open bet one.",
+   "Device Category": "mobile",
+   "client id": "468622254.1536651960",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Its awesome",
+   "Device Category": "mobile",
+   "client id": "1857194728.1533894667",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Its confusing..and pushy",
+   "Device Category": "mobile",
+   "client id": "348666654.1529298433",
+   "Country": "Canada",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Its oké. But I think there isnt a lot of information about matches: like number of dangerous attacks etc..",
+   "Device Category": "mobile",
+   "client id": "1522536380.1518361351",
+   "Country": "Netherlands",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Jag vill ha hörn spel på alla fotball matcharna",
+   "Device Category": "mobile",
+   "client id": "1661460544.1535895004",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Jeg kan godt lide jeres live fodbold. 'scorer næste mål, men DNB varianten er kanon! Udover det plejer i jeres kunder godt med %'er og freebets! Thumbs up",
+   "Device Category": "mobile",
+   "client id": "847029420.1533233494",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Jeg kan ikke placere væddemål på mere end 200kr uanset hvilket sport eller marked jeg prøver..",
+   "Device Category": "mobile",
+   "client id": "1129107683.1528989003",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Jeres app er lidt langsommere end andre synes jeg, men det overordnede gode er at jeres Apple er meget nem at finde rundt på; alle kampene jeg normalt spiller på ligger kun 1 klik væk!",
+   "Device Category": "mobile",
+   "client id": "1278970244.1526512002",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Jg",
+   "Device Category": "mobile",
+   "client id": "726666277.1530198944",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Just not for my",
+   "Device Category": "tablet",
+   "client id": "1774696639.1536956548",
+   "Country": "Netherlands",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Kan inte trycka in på ' kupong ' ???",
+   "Device Category": "mobile",
+   "client id": "342056781.1534347723",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Kertoimet kilpailukykyisiä.Cash out toiminto on hyvä lisä.Saisiko liveotteluiden kuvaa mitenkään koko näytölle?",
+   "Device Category": "desktop",
+   "client id": "1342197765.1536492775",
+   "Country": "Finland",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Kotiutukset hitaita.",
+   "Device Category": "mobile",
+   "client id": "1022079648.1529389576",
+   "Country": "Finland",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Lagg",
+   "Device Category": "mobile",
+   "client id": "1493178116.1536931228",
+   "Country": "Sweden",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Lägg de ligor/sporter osv man brukar tippa på, i mitt fall allsvenskan premier league, överst. När jag söker på premier league eller united vill jag inte heller att det översta förslaget ska vara bangladesh premier league eller newton united osv.",
+   "Device Category": "desktop",
+   "client id": "401113591.1532873169",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Leovegas Sport finde ich gut, aber euer Casino ist schlecht, sehr schlecht",
+   "Device Category": "mobile",
+   "client id": "1668926416.1536412043",
+   "Country": "Germany",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Lied about free spins",
+   "Device Category": "mobile",
+   "client id": "1003454486.1536656359",
+   "Country": "United Kingdom",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Liker den",
+   "Device Category": "mobile",
+   "client id": "837115387.1524783925",
+   "Country": "Norway",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Locked me out multiple times",
+   "Device Category": "mobile",
+   "client id": "1075787002.1536577004",
+   "Country": "United Kingdom",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Lots of choice, nice lay-out and very userfriendly.",
+   "Device Category": "mobile",
+   "client id": "2074706797.1536845568",
+   "Country": "Netherlands",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Love this website",
+   "Device Category": "mobile",
+   "client id": "1517837209.1526079283",
+   "Country": "United Kingdom",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Man må nærmest ikke spille noget.. alt for lave limits. Men i er gode til at sende profit boost.. ellers var jeg her heller ikke :-)",
+   "Device Category": "mobile",
+   "client id": "1517633622.1534014569",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Många alternativ på asianmarknaden och hörnmarknaden. Önskar större utbud på livespel bara.",
+   "Device Category": "desktop",
+   "client id": "166661392.1514916677",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Mange forskellige odds muligheder",
+   "Device Category": "mobile",
+   "client id": "1498516573.1534872390",
+   "Country": "Denmark",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Mange valg og cash out",
+   "Device Category": "mobile",
+   "client id": "2062053380.1536046016",
+   "Country": "Norway",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Mangler at den kommer med pop up besked når der bliver scoret i de kampe man har spillet på.. som man får på bet365",
+   "Device Category": "mobile",
+   "client id": "1124293499.1526992901",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Mangler pop up beskeder på mobilen når der kommer mål i kampene",
+   "Device Category": "mobile",
+   "client id": "1124293499.1526992901",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Masser af live spil",
+   "Device Category": "mobile",
+   "client id": "1605326162.1513501614",
+   "Country": "Denmark",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Men jeg mangler stadig funktionen “næste kampe” - det kan være svært at overskue kommende spil",
+   "Device Category": "mobile",
+   "client id": "1737210553.1512411430",
+   "Country": "Denmark",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Mycket bra sida, bra bonusar",
+   "Device Category": "desktop",
+   "client id": "1541289747.1519044859",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Najs",
+   "Device Category": "mobile",
+   "client id": "1396627445.1524124078",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Needs a horse racing stream is the only downside",
+   "Device Category": "mobile",
+   "client id": "755548453.1536847504",
+   "Country": "United Kingdom",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Nemt",
+   "Device Category": "mobile",
+   "client id": "676944081.1536430497",
+   "Country": "Denmark",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Nemt og overskueligt",
+   "Device Category": "mobile",
+   "client id": "1476179047.1536525413",
+   "Country": "Denmark",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Nfl",
+   "Device Category": "mobile",
+   "client id": "1605900973.1534351293",
+   "Country": "Sweden",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Ni bara tar men ger inte nåt !",
+   "Device Category": "mobile",
+   "client id": "2138876438.1536022369",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Nice odss and fast payments",
+   "Device Category": "mobile",
+   "client id": "2050398166.1535751416",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Not fair only certain times you have point 1 for tennis . Keep this available always.",
+   "Device Category": "mobile",
+   "client id": "8797076.1508581250",
+   "Country": "Canada",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Not into it",
+   "Device Category": "mobile",
+   "client id": "1716868877.1533956116",
+   "Country": "Canada",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "önskar tydligare placering av datum till fotboll.",
+   "Device Category": "desktop",
+   "client id": "379610196.1536013387",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Open the betslip it not good takes to long and than you miss bets on live betti g",
+   "Device Category": "mobile",
+   "client id": "470629786.1536831460",
+   "Country": "Netherlands",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Panosrajat pois",
+   "Device Category": "mobile",
+   "client id": "1450966516.1514322004",
+   "Country": "Finland",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Personlige limits!",
+   "Device Category": "desktop",
+   "client id": "1908967218.1515232992",
+   "Country": "Denmark",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Poor customer service, I am trying to withdraw my money but can’t as I doesn’t show my name on my online banking , I can provide my bank card and passport or driving license but this is not acceptable???? This is the identification I required for all othe",
+   "Device Category": "mobile",
+   "client id": "1549293200.1536347891",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Riktig jävla skitapp, fyfan va seg den är!",
+   "Device Category": "mobile",
+   "client id": "150617814.1503554050",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Schön schnell und übersichtlich",
+   "Device Category": "mobile",
+   "client id": "1063304038.1536000834",
+   "Country": "Germany",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Seg app",
+   "Device Category": "mobile",
+   "client id": "275864074.1465821026",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "sehr über sichtlich",
+   "Device Category": "desktop",
+   "client id": "1495276011.1536931187",
+   "Country": "Germany",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Sehr übersichtlich...",
+   "Device Category": "mobile",
+   "client id": "2065815239.1535734898",
+   "Country": "Germany",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Selkeä, toimii hyvin mobiilissa.",
+   "Device Category": "mobile",
+   "client id": "754353031.1490451326",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Shit",
+   "Device Category": "mobile",
+   "client id": "1701326417.1536611476",
+   "Country": "Ireland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Signed up didn’t receive any spins at all have to deposit when states you don’t have to",
+   "Device Category": "mobile",
+   "client id": "754621229.1536961172",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Site is terrible why even have a live bet option if you close out a game for over an entire corner. Would not recommend to anyone",
+   "Device Category": "mobile",
+   "client id": "1225182156.1536791651",
+   "Country": "Canada",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Själva leovegas är bra, men tycker att de borde vara lite smidigare ta fram sig till dagens matcher eller titta på statistik på just den matchen du vill lägga. Tycker Unibet har bra koncept. Sorry men de vad jag tycker..",
+   "Device Category": "desktop",
+   "client id": "1063966717.1536318757",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Smidigt",
+   "Device Category": "mobile",
+   "client id": "1880681674.1536096570",
+   "Country": "Sweden",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Smooth interface",
+   "Device Category": "mobile",
+   "client id": "1422848541.1535821559",
+   "Country": "United Kingdom",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Snabb service, bra odds. Bra med bonusspel.",
+   "Device Category": "mobile",
+   "client id": "1532626074.1521720640",
+   "Country": "Sweden",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Snyggt, enkelt och mycket intressanta spel erbjudanden",
+   "Device Category": "mobile",
+   "client id": "569307308.1527848518",
+   "Country": "Sweden",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "So bad. Not enough live matches like Unibet. Besides that it happens multiple times that the system not add the bet you just clicked. And slow af...",
+   "Device Category": "mobile",
+   "client id": "292043086.1507896043",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "solange man gewinnt ist der Bonus sinn- u. wertlos u. kommt nie zur auszahlung, sagen ihre Mitarbeiter - lächerlicher geht es kaum!",
+   "Device Category": "desktop",
+   "client id": "1061812660.1536508434",
+   "Country": "Germany",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Sports bonus are complicated and done completely wrong, to redeem them you have to spend money from what I understand, a free bet should be just that \"free\" as in here's your free bet, place it and see if you win, your way is too complicated",
+   "Device Category": "mobile",
+   "client id": "1056540293.1536498094",
+   "Country": "Ireland",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Stort minus er at der ikke kommer opdateringer som pop up på mobilen",
+   "Device Category": "mobile",
+   "client id": "1124293499.1526992901",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Super",
+   "Device Category": "mobile",
+   "client id": "1449717470.1517071872",
+   "Country": "Finland",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Super Spiele Auswahl und top Bonus Programme",
+   "Device Category": "mobile",
+   "client id": "452442796.1536988260",
+   "Country": "Germany",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Super Wertangebot und cashout System bin total zufieden",
+   "Device Category": "mobile",
+   "client id": "1772390412.1533316469",
+   "Country": "Germany",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Svårt att hitta tyckte bättre om gamla",
+   "Device Category": "mobile",
+   "client id": "992623980.1536665980",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Syns det er en bra side, god service",
+   "Device Category": "mobile",
+   "client id": "319155092.1535640077",
+   "Country": "Norway",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "There should be like a favourites list for sport like , going to perhaps football Immediately , and there are no live streams what so ever let alone seeing the movements in some of the live games",
+   "Device Category": "mobile",
+   "client id": "1768779978.1534280222",
+   "Country": "(not set)",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Toll",
+   "Device Category": "mobile",
+   "client id": "1586822900.1536956272",
+   "Country": "Germany",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Tolle Übersicht super Quoten",
+   "Device Category": "mobile",
+   "client id": "1591955059.1536226524",
+   "Country": "Germany",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Too much fake games never could withdraw because they dnt withdraw your money fake site",
+   "Device Category": "mobile",
+   "client id": "570288668.1532684462",
+   "Country": "United Kingdom",
+   "Date": "20180914",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Topp👍",
+   "Device Category": "mobile",
+   "client id": "404321201.1526476915",
+   "Country": "Netherlands",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "U",
+   "Device Category": "mobile",
+   "client id": "901625814.1482945497",
+   "Country": "New Zealand",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Übersichtliches, freundliches Design der Website!",
+   "Device Category": "mobile",
+   "client id": "1405450663.1535225153",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Ungewöhnliche",
+   "Device Category": "mobile",
+   "client id": "485436547.1536618286",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Väldigt segt, hinner oftast inte ens lägga spelet",
+   "Device Category": "mobile",
+   "client id": "659500552.1535390367",
+   "Country": "Sweden",
+   "Date": "20180911",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Vanha oli paljon parempi,",
+   "Device Category": "mobile",
+   "client id": "1614960970.1507771101",
+   "Country": "Finland",
+   "Date": "20180915",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Very complicated",
+   "Device Category": "mobile",
+   "client id": "524011240.1536496397",
+   "Country": "United Kingdom",
+   "Date": "20180909",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Vietiin mahdollisuus osallistua kamppanioihinne täysin syyttä.",
+   "Device Category": "mobile",
+   "client id": "429960698.1507405874",
+   "Country": "Finland",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Virker helt vildt godt.",
+   "Device Category": "mobile",
+   "client id": "1538584506.1534207865",
+   "Country": "Denmark",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Weil es Fair zu geht.transparent...im gegen Satz zu den Slots wo Mann für 400euro einmal freespins bekommt..im Wert von 30euro... anstatt Spass und Gewinn Frust agrro..Wetten stimmen die Quoten somit auch die Auszahlung vorausgesetzt Mann tippt richtig.",
+   "Device Category": "mobile",
+   "client id": "847858554.1536463076",
+   "Country": "Germany",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "Wieso kann ich keine Wette abgeben",
+   "Device Category": "mobile",
+   "client id": "718559997.1536527055",
+   "Country": "(not set)",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Won’t let me place decent sized bets",
+   "Device Category": "mobile",
+   "client id": "1121975797.1536581390",
+   "Country": "United Kingdom",
+   "Date": "20180912",
+   "Total Events": 1,
+   "Avg. Value": 0
+ },
+ {
+   "Event Label": "Yleisilme hyvä mutta live veto vois olla vähän laadukkaampi ja nähdä heti kaikki kohteet",
+   "Device Category": "mobile",
+   "client id": "1054624288.1526373607",
+   "Country": "Finland",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "You guys are decent, much better than bet365. I like your odds, I like your options for sports, but you could be a little bit better on updating games correctly and allowing more live betting. Thanks for being dope",
+   "Device Category": "mobile",
+   "client id": "1042569558.1536418390",
+   "Country": "Canada",
+   "Date": "20180910",
+   "Total Events": 1,
+   "Avg. Value": 1
+ },
+ {
+   "Event Label": "zu wenige angebote von live spielen.",
+   "Device Category": "desktop",
+   "client id": "336114700.1536753490",
+   "Country": "(not set)",
+   "Date": "20180913",
+   "Total Events": 1,
+   "Avg. Value": 0
+ }
+]

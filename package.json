@@ -6,6 +6,7 @@
     "axios": "^0.18.0",
     "eslint": "^4.19.1",
     "flag-icon-css": "^3.0.0",
+    "google-translate-api": "^2.3.0",
     "i18n-iso-countries": "^3.6.3",
     "lodash": "^4.17.10",
     "moment": "^2.22.2",

@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import _ from 'lodash'
 import axios from 'axios'
 import moment from 'moment'
+import myData from './feedback.json';
+
 
 
 class EventList extends Component {
@@ -11,11 +13,82 @@ class EventList extends Component {
         this.handleClick = this.handleClick.bind(this);
         this.clickEvent = this.clickEvent.bind(this);
         this.handleToggleClick = this.handleToggleClick.bind(this);
+
     }
+
 
     state = {
         matches: [],
+        items:
+          {myData: []}
+        ,
         hideStats: false,
+          googleCode: [
+            {
+              name: "Canada",
+              code: "en-GB"
+            },
+            {
+              name: "Croatia",
+              code: "hr"
+            },
+            {
+              name: "Czechia",
+              code: "cs"
+            },
+            {
+              name: "Denmark",
+              code: "da"
+            },
+            {
+              name: "Finland",
+              code: "fi"
+            },
+            {
+              name: "Germany",
+              code: "de"
+            },
+            {
+              name: "Ireland",
+              code: "en-GB"
+            },
+            {
+              name: "Malta",
+              code: "en-GB"
+            },
+            {
+              name: "New Zealand",
+              code: "en-GB"
+            },
+            {
+              name: "Netherlands",
+              code: "nl"
+            },
+            {
+              name: "Norway",
+              code: "no"
+            },
+            {
+              name: "Sweden",
+              code: "sv"
+            },
+            {
+              name: "United Arab Emirates",
+              code: "en-GB"
+            },
+            {
+              name: "United Kingdom",
+              code: "en-GB"
+            },
+            {
+              name: "United States",
+              code: "en-GB"
+            },
+            {
+              name: "(not set)",
+              code: "en-GB"
+            }
+            ],
         isoCountries2: [
             {
                 name: "Afghanistan",
@@ -999,7 +1072,7 @@ class EventList extends Component {
                 numeric: "524"
             },
             {
-                name: "Netherlands (the)",
+                name: "Netherlands",
                 alpha2: "NL",
                 alpha3: "NLD",
                 numeric: "528",
@@ -1493,7 +1566,7 @@ class EventList extends Component {
                 altName: "United Arab Emirates"
             },
             {
-                name: "United Kingdom of Great Britain and Northern Ireland (the)",
+                name: "United Kingdom",
                 alpha2: "GB",
                 alpha3: "GBR",
                 numeric: "826",
@@ -1600,6 +1673,12 @@ class EventList extends Component {
                 alpha2: "ZW",
                 alpha3: "ZWE",
                 numeric: "716"
+            },
+            {
+                name: "(not set)",
+                alpha2: "ZW",
+                alpha3: "ZWE",
+                numeric: "716"
             }
         ]
     }
@@ -1610,6 +1689,11 @@ class EventList extends Component {
                 const matches = res.data;
                 this.setState({ matches });
             })
+      this.state.items={
+        myData,
+      }
+
+      this.translateFeedback();
     }
 
 
@@ -1633,11 +1717,6 @@ class EventList extends Component {
 
 
     render() {
-        const matchList = this.subComponent();
-
-        if(matchList[0] !== undefined){
-            console.log(matchList[0].events)
-        }
 
         var hideStats = "";
         if(this.state.hideStats === true){
@@ -1648,208 +1727,42 @@ class EventList extends Component {
         }
 
         const TableHeader = ()  => {
-                return <div>test</div>;
+                return <div></div>;
         };
 
-        /*const header = matchList[0].map((match, i) => {
-            console.log(match)
+       const matchListX = this.state.items.myData
+            .filter(function (day1) {
+                return day1["Event Label"] !== "empty string" && day1["Event Label"] !== "(not set)";
+            })
+            .map((day, i) => {
+         var eventLabel = "";
+         if(day.translatedVersion !== undefined) {
+           console.log(day.Country)
+           eventLabel = day.translatedVersion
+         } else eventLabel = day["Event Label"];
             return (
                 <div className="element">
-                    <div className="row">
-                        <div className="column small">
-                            <div className="cell">
-                                test
-                            </div>
-                        </div>
-                        <div className="column small">
-                            <div className="cell">
-                                test
-                            </div>
-                        </div>
-                        <div className="column small">
-                            <div className="cell">
-                                test
-                            </div>
-                        </div>
-                        <div className="column small">
-                            <div className="cell">
-                                test
-                            </div>
-                        </div>
-                        <div className="column big">
-                            <div className="cell">
-                                test
-                            </div>
-                        </div>
-                        <div className="column medium">
-                            <div className="cell">
-                                test
-                            </div>
-                        </div>
-                        <div className="column medium">
-                            <div className="cell">
-                                test
-                            </div>
-                        </div>
-                        <div className="column medium">
-                            <div className="cell">
-                                test
-                            </div>
-                        </div>
-                        <div className="column medium">
-                            <div className="cell">
-                                test
-                            </div>
-                        </div>
-                        {
-                            Object.keys(match.home_team_statistics).map((key, index) => {
-                                if (typeof match.home_team_statistics[key] !== 'object' && index != 0) {
-                                    return (
-                                        <div className={[hideStats, "column small team"].join(' ')}>
-                                            <div className="cell">
-                                                <div className="name">
-                                                    {match.home_team_statistics[key]}
-                                                </div>
-                                            </div>
-                                            <div className="cell">
-                                                <div className="name">
-                                                    {match.away_team_statistics[key]}
-                                                </div>
-                                            </div>
-                                        </div>
-                                    )
-                                }
-                            })
-                        }
-                    </div>
-                </div>
-            )
-        })*/
-
-        const matchList2 = matchList.map((day, i) => {
-
-            return (
-                <div className="element">
-                    <div className="date">
-                        <div className="day">
-                            {moment(day.day).format('DD')}
-                        </div>
-                        <div className="month">
-                            {moment(day.day).format('MMMM')}
-                        </div>
-                    </div>
-
-                    {day.events.map((match, j) => {
-                        const isCompleted = match.status === 'completed' || match.status === 'in progress';
-
-                        return (
-                            <div>
-                                <div className="row">
-
-                                    <div className="column small">
-                                        <div className="time">{moment(match.datetime).format('HH:mm')}</div>
+                    <div>
+                        <div className="row">
+                            <div className="column small">
+                                <div className="cell">
+                                    <div
+                                        className={[this.getCountryCode.call(this, day.Country), "flag flag-icon flag-icon"].join(' ')}>
                                     </div>
-                                    <div className="column small">
-                                        <div className="cell">
-                                            <div
-                                                className={[this.getCountryCode.call(this, match.home_team.country), "flag-icon-squared flag flag-icon flag-icon"].join(' ')}>
-                                            </div>
-                                        </div>
-                                        <div className="cell">
-                                            <div
-                                                className={[this.getCountryCode.call(this, match.away_team.country), "flag-icon-squared flag flag-icon flag-icon"].join(' ')}>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column small">
-                                        <div className="cell">
-                                            <div
-                                                className={this.eventStatus(match)}>
-                                                <div className="score">{match.home_team.goals}</div>
-                                            </div>
-                                        </div>
-                                        <div className="cell">
-                                            <div
-                                                className={this.eventStatus(match)}>
-                                                <div className="score">{match.away_team.goals}</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column team small">
-                                        <div className="cell">
-                                            <div className="name">
-                                                {match.home_team.code}
-                                            </div>
-                                        </div>
-                                        <div className="cell">
-                                            <div className="name">
-                                                {match.away_team.code}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="column big">
-                                        <div className="time">{match.location}</div>
-                                    </div>
-                                    <div className="column medium">
-                                        <div className="time">{match.attendance}</div>
-                                    </div>
-
-                                    { isCompleted
-                                        ?
-                                        <div className="column medium">
-                                            <i className={[this.getWeatherCode.call(this, match.weather.description), "wi wi-day-sunny"].join(' ')}></i>
-                                        </div>
-                                        : ""
-                                    }
-                                    { isCompleted
-                                        ?
-                                        <div className="column medium">
-                                            {match.weather.temp_celsius}
-                                            <i className="wi wi-celsius"></i>
-
-                                        </div>
-                                        : ""
-                                    }
-                                    { isCompleted
-                                        ?
-                                        <div className="column medium">
-                                            <i className={[this.getWindSpeed.call(this, match.weather.wind_speed), "wi"].join(' ')}></i>
-
-
-                                        </div>
-                                        : ""
-                                    }
-
-
-                                    { isCompleted
-                                        ?
-                                        Object.keys(match.home_team_statistics).map((key, index) => {
-                                            if (typeof match.home_team_statistics[key] !== 'object' && index != 0) {
-                                                return (
-                                                        <div className={[hideStats, "column small team"].join(' ')}>
-                                                            <div className="cell">
-                                                                <div className="name">
-                                                                    {match.home_team_statistics[key]}
-                                                                </div>
-                                                            </div>
-                                                            <div className="cell">
-                                                                <div className="name">
-                                                                    {match.away_team_statistics[key]}
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                )
-                                            }
-                                        }) : ""
-                                    }
-
                                 </div>
                             </div>
-                        );
-                    })}
-            </div>
+                            <div className="column small">
+                                <div className="time">{this.getReaction(day["Avg. Value"])}</div>
+                            </div>
+                            <div className="column small">
+                                <div className="time">{eventLabel}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             )
-        })
+        });
 
         return (
             <div>
@@ -1857,28 +1770,16 @@ class EventList extends Component {
                     {this.state.hideStats ? 'ON' : 'OFF'}
                 </button>
                 <div className="header">
-                    <span>Highlights</span>
-                    <div className="nav">
-                        <svg className="arrow-icon left" width="16" height="16" viewBox="0 0 24 48" version="1.1" xmlns="http://www.w3.org/2000/svg"><path className="RightAngleBracket-icon__bracket___xPGyR" d="M22.964,17.199c0.269,0.257 0.425,0.611 0.434,0.983c0.008,0.373 -0.132,0.733 -0.389,1.003c-3.251,3.399 -13.73,14.354 -16.98,17.752c-0.536,0.56 -1.425,0.58 -1.985,0.044c-0.881,-0.843 -2.149,-2.056 -3.03,-2.898c-0.56,-0.536 -0.58,-1.425 -0.044,-1.985c2.426,-2.536 8.764,-9.162 11.645,-12.174c0.388,-0.405 0.599,-0.949 0.586,-1.51c-0.013,-0.561 -0.248,-1.094 -0.654,-1.482c-2.873,-2.741 -8.998,-8.588 -11.419,-10.899c-0.269,-0.257 -0.425,-0.611 -0.434,-0.983c-0.009,-0.372 0.131,-0.733 0.388,-1.002c0.841,-0.881 2.053,-2.151 2.895,-3.033c0.535,-0.56 1.424,-0.581 1.984,-0.046c2.942,2.808 11.6,11.073 17.003,16.23Z"></path></svg>
-                        <svg className="arrow-icon right" width="16" height="16" viewBox="0 0 24 48" version="1.1" xmlns="http://www.w3.org/2000/svg"><path className="RightAngleBracket-icon__bracket___xPGyR" d="M22.964,17.199c0.269,0.257 0.425,0.611 0.434,0.983c0.008,0.373 -0.132,0.733 -0.389,1.003c-3.251,3.399 -13.73,14.354 -16.98,17.752c-0.536,0.56 -1.425,0.58 -1.985,0.044c-0.881,-0.843 -2.149,-2.056 -3.03,-2.898c-0.56,-0.536 -0.58,-1.425 -0.044,-1.985c2.426,-2.536 8.764,-9.162 11.645,-12.174c0.388,-0.405 0.599,-0.949 0.586,-1.51c-0.013,-0.561 -0.248,-1.094 -0.654,-1.482c-2.873,-2.741 -8.998,-8.588 -11.419,-10.899c-0.269,-0.257 -0.425,-0.611 -0.434,-0.983c-0.009,-0.372 0.131,-0.733 0.388,-1.002c0.841,-0.881 2.053,-2.151 2.895,-3.033c0.535,-0.56 1.424,-0.581 1.984,-0.046c2.942,2.808 11.6,11.073 17.003,16.23Z"></path></svg>
-                    </div>
+                    <span>Feedback</span>
                 </div>
                 <TableHeader />
                 <div id="wrapper" className={this.state.fullView ? 'toggled' : ''}>
                     <div id="events">
-                        {matchList2}
-                    </div>
-                    <div id="more" onClick={this.handleClick}>
-                        <span>Show tournament overview</span>
-                        <svg id="more-icon" className="arrow-icon" width="16" height="16" viewBox="0 0 24 48" version="1.1" xmlns="http://www.w3.org/2000/svg"><path class="RightAngleBracket-icon__bracket___xPGyR" d="M22.964,17.199c0.269,0.257 0.425,0.611 0.434,0.983c0.008,0.373 -0.132,0.733 -0.389,1.003c-3.251,3.399 -13.73,14.354 -16.98,17.752c-0.536,0.56 -1.425,0.58 -1.985,0.044c-0.881,-0.843 -2.149,-2.056 -3.03,-2.898c-0.56,-0.536 -0.58,-1.425 -0.044,-1.985c2.426,-2.536 8.764,-9.162 11.645,-12.174c0.388,-0.405 0.599,-0.949 0.586,-1.51c-0.013,-0.561 -0.248,-1.094 -0.654,-1.482c-2.873,-2.741 -8.998,-8.588 -11.419,-10.899c-0.269,-0.257 -0.425,-0.611 -0.434,-0.983c-0.009,-0.372 0.131,-0.733 0.388,-1.002c0.841,-0.881 2.053,-2.151 2.895,-3.033c0.535,-0.56 1.424,-0.581 1.984,-0.046c2.942,2.808 11.6,11.073 17.003,16.23Z"></path></svg>
+                        {matchListX}
                     </div>
                 </div>
             </div>
         )
-
-        //));
-
-
     }
 
 
@@ -1905,6 +1806,60 @@ class EventList extends Component {
             })()
         )
     };
+
+  getCountry = (event) => {
+    var filteredEvent = _.filter(this.state.googleCode, x => x.name === event);
+    return filteredEvent[0].code;
+  };
+
+
+    getReaction(reaction){
+        switch(reaction){
+            case 0: return "-";
+            case 1: return "+";
+            default: return ""
+        }
+    }
+
+      translateFeedback() {
+      const allowedCountries = ["Finland", "Denmark", "Germany", "Norway", "Sweden"];
+        this.state.items.myData
+          .map((match, j) => {
+
+          if((match["Event Label"] !== "empty string" && match["Event Label"] !== "(not set)")&&(allowedCountries.indexOf(match.Country) > -1)) {
+
+
+            let fromLang = this.getCountry(match.Country);
+            let toLang = 'en';
+            let text = match["Event Label"];
+
+            const API_KEY = "AIzaSyAadGmocvKJpV08em-cD1QofqUR8zO4v0Y";
+
+            let url = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`;
+            url += '&q=' + encodeURI(text);
+            url += `&source=${fromLang}`;
+            url += `&target=${toLang}`;
+
+            fetch(url, {
+              method: 'GET',
+              headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+              }
+            })
+              .then(res => res.json())
+              .then((response) => {
+                this.state.items.myData[j].translatedVersion = response.data.translations[0].translatedText
+
+              })
+              .catch(error => {
+                console.log("There was an error with the translation request: ", error);
+              });
+
+          }
+        })
+      }
+
 
     getWeatherCode = (weather) => {
         return (
