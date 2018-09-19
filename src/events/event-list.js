@@ -1,370 +1,94 @@
 import React, {Component} from 'react';
 import _ from 'lodash'
+import axios from 'axios'
+import moment from 'moment'
+import feedback from './feedback.json';
+import update from 'immutability-helper';
+
 
 
 class EventList extends Component {
 
     constructor(props) {
-        super();
+        super(props);
         this.handleClick = this.handleClick.bind(this);
         this.clickEvent = this.clickEvent.bind(this);
+        this.handleToggleClick = this.handleToggleClick.bind(this);
+
     }
 
+
     state = {
-        fullView: false,
-        days: [
+        items: feedback,
+        randomItem: 0,
+        commentNumber: 0,
+        hideStats: false,
+          googleCode: [
             {
-                day: 14,
-                month: "Fri",
-                events: [
-                    {
-                        featured: true,
-                        homeTeam: "Russia",
-                        awayTeam: "Saudi Arabia",
-                        kambiID: 1004378760,
-                        time: "17:00"
-                    }
-                ]
+              name: "Canada",
+              code: "en-GB"
             },
             {
-                day: 15,
-                month: "Sat",
-                events: [
-                    {
-                        homeTeam: "Egypt",
-                        awayTeam: "Uruguay",
-                        kambiID: 1004378743,
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Morocco",
-                        awayTeam: "Iran",
-                        kambiID: 1004378764,
-                        time: "17:00"
-                    },
-                    {
-                        featured: true,
-                        homeTeam: "Portugal",
-                        awayTeam: "Spain",
-                        kambiID: 1004378735,
-                        time: "17:00"
-                    }
-                ]
+              name: "Croatia",
+              code: "hr"
             },
             {
-                day: 16,
-                month: "Sun",
-                events: [
-                    {
-                        homeTeam: "France",
-                        awayTeam: "Australia",
-                        time: "17:00"
-                    },
-                    {
-                        featured: true,
-                        homeTeam: "Argentina",
-                        awayTeam: "Iceland",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Peru",
-                        awayTeam: "Denmark",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Croatia",
-                        awayTeam: "Nigeria",
-                        time: "17:00"
-                    }
-                ]
+              name: "Czechia",
+              code: "cs"
             },
             {
-                day: 17,
-                month: "Mon",
-                events: [
-                    {
-                        homeTeam: "Costa Rica",
-                        awayTeam: "Serbia",
-                        time: "17:00"
-                    },
-                    {
-                        featured: true,
-                        homeTeam: "Germany",
-                        awayTeam: "Mexico",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Brazil",
-                        awayTeam: "Switzerland",
-                        time: "17:00"
-                    }
-                ]
+              name: "Denmark",
+              code: "da"
             },
             {
-                day: 18,
-                month: "Tue",
-                events: [
-                    {
-                        featured: true,
-                        homeTeam: "Sweden",
-                        awayTeam: "Korea Republic",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Belgium",
-                        awayTeam: "Panama",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Tunisia",
-                        awayTeam: "England",
-                        time: "17:00"
-                    }
-                ]
+              name: "Finland",
+              code: "fi"
             },
             {
-                day: 19,
-                month: "Wed",
-                events: [
-                    {
-                        featured: true,
-                        homeTeam: "Colombia",
-                        awayTeam: "Japan",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Poland",
-                        awayTeam: "Senegal",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Russia",
-                        awayTeam: "Egypt",
-                        time: "17:00"
-                    }
-                ]
+              name: "Germany",
+              code: "de"
             },
             {
-                day: 20,
-                month: "Thu",
-                events: [
-                    {
-                        featured: true,
-                        homeTeam: "Portugal",
-                        awayTeam: "Morocco",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Uruguay",
-                        awayTeam: "Saudi Arabia",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Iran",
-                        awayTeam: "Spain",
-                        time: "17:00"
-                    }
-                ]
+              name: "Ireland",
+              code: "en-GB"
             },
             {
-                day: 21,
-                month: "Fri",
-                events: [
-                    {
-                        homeTeam: "Denmark",
-                        awayTeam: "Australia",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "France",
-                        awayTeam: "Peru",
-                        time: "17:00"
-                    },
-                    {
-                        featured: true,
-                        homeTeam: "Argentina",
-                        awayTeam: "Croatia",
-                        time: "17:00"
-                    }
-                ]
+              name: "Malta",
+              code: "en-GB"
             },
             {
-                day: 22,
-                month: "Sat",
-                events: [
-                    {
-                        featured: true,
-                        homeTeam: "Brazil",
-                        awayTeam: "Costa Rica",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Nigeria",
-                        awayTeam: "Iceland",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Serbia",
-                        awayTeam: "Switzerland",
-                        time: "17:00"
-                    }
-                ]
+              name: "New Zealand",
+              code: "en-GB"
             },
             {
-                day: 23,
-                month: "Sun",
-                events: [
-                    {
-                        homeTeam: "Belgium",
-                        awayTeam: "Tunisia",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Korea Republic",
-                        awayTeam: "Mexico",
-                        time: "17:00"
-                    },
-                    {
-                        featured: true,
-                        homeTeam: "Germany",
-                        awayTeam: "Sweden",
-                        time: "17:00"
-                    }
-                ]
+              name: "Netherlands",
+              code: "nl"
             },
             {
-                day: 24,
-                month: "Mon",
-                events: [
-                    {
-                        homeTeam: "England",
-                        awayTeam: "Panama",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Japan",
-                        awayTeam: "Senegal",
-                        time: "17:00"
-                    },
-                    {
-                        featured: true,
-                        homeTeam: "Poland",
-                        awayTeam: "Colombia",
-                        time: "17:00"
-                    }
-                ]
+              name: "Norway",
+              code: "no"
             },
             {
-                day: 25,
-                month: "Tue",
-                events: [
-                    {
-                        homeTeam: "Uruguay",
-                        awayTeam: "Russia",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Saudi Arabia",
-                        awayTeam: "Egypt",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Iran",
-                        awayTeam: "Portugal",
-                        time: "17:00"
-                    },
-                    {
-                        featured: true,
-                        homeTeam: "Spain",
-                        awayTeam: "Morocco",
-                        time: "17:00"
-                    }
-                ]
+              name: "Sweden",
+              code: "sv"
             },
             {
-                day: 26,
-                month: "Wed",
-                events: [
-                    {
-                        featured: true,
-                        homeTeam: "Denmark",
-                        awayTeam: "France",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Australia",
-                        awayTeam: "Peru",
-                        time: "17:00"
-                    },
-                    {
-                        featured: true,
-                        homeTeam: "Nigeria",
-                        awayTeam: "Argentina",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Iceland",
-                        awayTeam: "Croatia",
-                        time: "17:00"
-                    }
-                ]
+              name: "United Arab Emirates",
+              code: "en-GB"
             },
             {
-                day: 27,
-                month: "Thu",
-                events: [
-                    {
-                        homeTeam: "Korea Republic",
-                        awayTeam: "Germany",
-                        time: "17:00"
-                    },
-                    {
-                        featured: true,
-                        homeTeam: "Mexico",
-                        awayTeam: "Sweden",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Serbia",
-                        awayTeam: "Brazil",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Switzerland",
-                        awayTeam: "Costa Rica",
-                        time: "17:00"
-                    }
-                ]
+              name: "United Kingdom",
+              code: "en-GB"
             },
             {
-                day: 28,
-                month: "Fri",
-                events: [
-                    {
-                        homeTeam: "Japan",
-                        awayTeam: "Poland",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Senegal",
-                        awayTeam: "Colombia",
-                        time: "17:00"
-                    },
-                    {
-                        featured: true,
-                        homeTeam: "England",
-                        awayTeam: "Belgium",
-                        time: "17:00",
-                        time: "17:00"
-                    },
-                    {
-                        homeTeam: "Panama",
-                        awayTeam: "Tunisia",
-                        time: "17:00"
-                    }
-                ]
+              name: "United States",
+              code: "en-GB"
+            },
+            {
+              name: "(not set)",
+              code: "en-GB"
             }
-        ],
+            ],
         isoCountries2: [
             {
                 name: "Afghanistan",
@@ -1348,7 +1072,7 @@ class EventList extends Component {
                 numeric: "524"
             },
             {
-                name: "Netherlands (the)",
+                name: "Netherlands",
                 alpha2: "NL",
                 alpha3: "NLD",
                 numeric: "528",
@@ -1842,7 +1566,7 @@ class EventList extends Component {
                 altName: "United Arab Emirates"
             },
             {
-                name: "United Kingdom of Great Britain and Northern Ireland (the)",
+                name: "United Kingdom",
                 alpha2: "GB",
                 alpha3: "GBR",
                 numeric: "826",
@@ -1949,92 +1673,309 @@ class EventList extends Component {
                 alpha2: "ZW",
                 alpha3: "ZWE",
                 numeric: "716"
+            },
+            {
+                name: "(not set)",
+                alpha2: "ZW",
+                alpha3: "ZWE",
+                numeric: "716"
             }
         ]
+    }
+
+  tick() {
+
+    if(this.state.randomItem==this.state.commentNumber) {
+          this.setState(prevState => ({
+            randomItem: 0
+          }));
+        } else {
+          this.setState(prevState => ({
+            randomItem: prevState.randomItem + 1
+          }));
+        }
+  }
+
+     componentDidMount() {
+       this.interval = setInterval(() => this.tick(), 30000);
+       this.setMax();
+    }
+
+    componentWillUnmount() {
+        this.serverRequest.abort();
+      clearInterval(this.interval);
     };
+
+  setMax() {
+    const matchListLength = this.state.items
+      .sort( (a, b) => moment(b.convertedDate, 'DD-MM-YYYY').unix() - moment(a.convertedDate, 'DD-MM-YYYY').unix() || a["Event Label"] - b["Event Label"])
+      .filter(function (day1) {
+        return day1["Event Label"] !== "empty string" && day1["Event Label"] !== "(not set)";
+      })
+      .map((day, i) => {
+        return day
+      });
+
+
+    this.setState((prevState) => {
+      return { commentNumber: matchListLength.length  }
+    });
+  }
 
 
     render() {
-        const eventList = this.state.days.map((day, i) => (
-            <div className="element">
-                <div className="date">
-                    <div className="day">
-                        {day.day}
+      this.updateDate();
+      //this.translateFeedback();
+
+
+
+        var hideStats = "";
+        if(this.state.hideStats === true){
+            hideStats = "hide";
+        }
+        else{
+            hideStats = "";
+        }
+
+        const TableHeader = ()  => {
+                return <div></div>;
+        };
+
+        const randomComment = this.state.items[this.state.randomItem];
+
+
+
+      const allowedCountries = ["Finland", "Denmark", "Germany", "Norway", "Sweden"];
+
+      const displayRandom = this.state.items
+        .filter(function (day1) {
+          return day1["Event Label"] !== "empty string" && day1["Event Label"] !== "(not set)";
+        })
+        .map((day, i) => {
+          if(i == this.state.randomItem) {
+              var originalVersion = "";
+            if((allowedCountries.indexOf(day.Country) > -1)) {
+                originalVersion = "("+day["Event Label"]+")";
+            }
+
+              return (
+            <div>
+                <div className="FeedbackWrapper">
+                    <div className={[this.getReaction(day["Avg Value"]), "UserFeedbackBig"].join(' ')}>
+                        <svg fill-rule="evenodd" className="UserFeedback__thumbsIcon___2PAAf" width="130" height="130" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M4.859 21.486H1.215C.544 21.486 0 20.913 0 20.207v-9.953c0-.706.544-1.279 1.215-1.279h3.644c.671 0 1.214.573 1.214 1.279v9.953c0 .706-.544 1.279-1.214 1.279zm-.334-2.511a.898.898 0 1 1-.001 1.795.898.898 0 0 1 .001-1.795zM6.584 10.447a.905.905 0 0 1 .821-.912c1.278-.088 2.119-.219 2.798-1.3 1.092-1.738 1.828-2.6 2.451-3.598.536-.861 1.084-2.512 1.153-3.364.077-.961.73-1.291 1.304-1.272.821.026 1.729.413 1.989 2.321.434 3.185-1.468 5.702-1.656 6.31-.481 1.555 4.749.444 6.083 1.074 1.831.865.6 2.029 1.012 2.793.367.679 1.409.332 1.459 1.787.046 1.339-.676 1.004-.894 2.183-.184.994.64 1.187.552 2.347-.103 1.344-1.388 1.245-1.681 1.851-.258.535.172 1.295-.077 1.787s-1.022 1.027-1.415 1.166c-1.843.653-4.988.337-6.817 0-1.986-.366-3.643-1.169-5.762-2.374-.343-.195-1.344-.807-1.343-1.211l.023-9.588z"></path></svg>
                     </div>
-                    <div className="month">
-                        {day.month}
+                    <div className="comment">
+                        {day.translatedLabel}
+                    </div>
+                    <div className="translatedComment">
+                      {originalVersion}
+                    </div>
+                    <div
+                      className={[this.getCountryCode.call(this, day.Country), "flag flag-icon flag-icon"].join(' ')}>
                     </div>
                 </div>
-                {day.events
-                    .filter((event) => ( this.state.fullView ? event : event.featured ))
-                    .map((event, j) => (
-
-                        <div id="event" onClick={(e) => this.clickEvent(event.kambiID, e)}>
-                            <div className="time">{event.time}</div>
-                            <div className="team">
-                                <div className="name">
-                                    {this.getCountryCode.call(this, event.homeTeam, 3)}
-                                </div>
-                                <div
-                                    className={[this.getCountryCode.call(this, event.homeTeam, 2), "flag-icon-squared flag flag-icon flag-icon"].join(' ')}>
-                                </div>
+                <div className="timer">
+                    <div className="circle-timer">
+                        <div className="timer-slot">
+                            <div className="timer-lt">
                             </div>
-                            <div className="team">
-                                <div className="name">
-                                    {this.getCountryCode.call(this, event.awayTeam, 3)}
-                                </div>
-                                <div
-                                    className={[this.getCountryCode.call(this, event.awayTeam, 2), "flag-icon-squared flag flag-icon flag-icon"].join(' ')}>
+                        </div>
+                        <div className="timer-slot">
+                            <div className="timer-rt">
+                            </div>
+                        </div>
+                        <div className="count">
+                            <div>{this.state.randomItem} /</div>
+                            <div>{this.state.commentNumber}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            ) }
+        });
+
+       const matchListX = this.state.items
+            .sort( (a, b) => moment(b.convertedDate, 'DD-MM-YYYY').unix() - moment(a.convertedDate, 'DD-MM-YYYY').unix() || a["Event Label"] - b["Event Label"])
+            .filter(function (day1) {
+                return day1["Event Label"] !== "empty string" && day1["Event Label"] !== "(not set)";
+            })
+            .map((day, i) => {
+
+         var eventLabel = "";
+         if(day.translatedVersion !== undefined) {
+           eventLabel = day.translatedVersion
+         } else eventLabel = day["Event Label"];
+            return (
+                <div className="element">
+                    <div>
+                        <div className="row">
+                            <div className="column small">
+                                <div className={[this.getReaction(day["Avg Value"]), "UserFeedback"].join(' ')}><svg fill-rule="evenodd" className="UserFeedback__thumbsIcon___2PAAf" width="20" height="20" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M4.859 21.486H1.215C.544 21.486 0 20.913 0 20.207v-9.953c0-.706.544-1.279 1.215-1.279h3.644c.671 0 1.214.573 1.214 1.279v9.953c0 .706-.544 1.279-1.214 1.279zm-.334-2.511a.898.898 0 1 1-.001 1.795.898.898 0 0 1 .001-1.795zM6.584 10.447a.905.905 0 0 1 .821-.912c1.278-.088 2.119-.219 2.798-1.3 1.092-1.738 1.828-2.6 2.451-3.598.536-.861 1.084-2.512 1.153-3.364.077-.961.73-1.291 1.304-1.272.821.026 1.729.413 1.989 2.321.434 3.185-1.468 5.702-1.656 6.31-.481 1.555 4.749.444 6.083 1.074 1.831.865.6 2.029 1.012 2.793.367.679 1.409.332 1.459 1.787.046 1.339-.676 1.004-.894 2.183-.184.994.64 1.187.552 2.347-.103 1.344-1.388 1.245-1.681 1.851-.258.535.172 1.295-.077 1.787s-1.022 1.027-1.415 1.166c-1.843.653-4.988.337-6.817 0-1.986-.366-3.643-1.169-5.762-2.374-.343-.195-1.344-.807-1.343-1.211l.023-9.588z"></path></svg></div>
+                            </div>
+                            <div className="column big">
+                                <div className="time">{eventLabel}</div>
+                            </div>
+                            <div className="column medium">
+                                <div className="time">{day.convertedDate}</div>
+                            </div>
+                            <div className="column small">
+                                <div className="cell">
+                                    <div
+                                      className={[this.getCountryCode.call(this, day.Country), "flag flag-icon flag-icon"].join(' ')}>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    ))
-                }
-            </div>
-        ));
+                    </div>
+
+                </div>
+            )
+        });
+
 
         return (
             <div>
-                <div className="header">Highlights</div>
-                <div id="wrapper" className={this.state.fullView ? 'toggled' : ''}>
-                    <div id="events">
-                        {eventList}
-                    </div>
-                    <div id="more" onClick={this.handleClick}>
-                        <i className="fa fa-caret-down"></i>
+                {/*<button onClick={this.handleToggleClick}></button>*/}
+                <div className="tabs">
+                    <div id="fullView">{displayRandom}</div>
+                    <div id="commentsView">
+                        <div className="header">
+                            <span>Feedback</span>
+                        </div>
+                        <TableHeader />
+                        <div id="wrapper" className={this.state.fullView ? 'toggled' : ''}>
+                            <div id="events">
+                                {matchListX}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         )
     }
 
+   convertToDate(dateString){
+        var year   = parseInt(dateString.substring(0,4));
+        var month  = parseInt(dateString.substring(4,6));
+        var day   = parseInt(dateString.substring(6,10));
+        var formattedDate = new Date(year, month-1, day);
+    return formattedDate;
+  }
 
-    getCountryCode = (event, format) => {
+
+    eventStatus(event){
+        switch(event.status){
+            case 'completed': return "show";
+            case 'ongoing': return "show";
+            case 'upcoming': return "";
+            default: return ""
+        }
+    }
+
+    getCountryCode = (event) => {
         var filteredEvent = _.filter(this.state.isoCountries2, x => x.name === event);
 
         return (
             (() => {
-                switch (format) {
-                    case 2:
-                        return "flag-icon-" + filteredEvent[0].alpha2.toLowerCase();
-                    case 3:
-                        return filteredEvent[0].alpha3;
+                switch (event) {
+                    case "To Be Determined":
+                        return "no-flag";
                     default:
-                        return "";
+                        return "flag-icon-" + filteredEvent[0].alpha2.toLowerCase();
                 }
             })()
         )
     };
+
+  getCountry = (event) => {
+    var filteredEvent = _.filter(this.state.googleCode, x => x.name === event);
+    return filteredEvent[0].code;
+  };
+
+
+    shuffleArray(array) {
+        let i = array.length - 1;
+        let j = Math.floor(Math.random() * (i + 1));
+        return array[j];
+    }
+
+    getReaction(reaction){
+        switch(reaction){
+            case "0.00": return "thumbsDown";
+            case "1.00": return "thumbsUp";
+            default: return ""
+        }
+    }
+
+      updateDate(){
+        this.state.items
+          .map((match, j) => {
+            const convertedDate = this.convertToDate(match.Date);
+            this.state.items[j].convertedDate = moment(convertedDate).format('DD-MM-YYYY');
+          })
+      }
+
+    translateFeedback() {
+      const allowedCountries = ["Finland", "Denmark", "Germany", "Norway", "Sweden"];
+
+      var oldStates = Object.assign({}, this.state)
+
+      oldStates.items
+          .map((match, j) => {
+
+            if((match["Event Label"] !== "empty string" && match["Event Label"] !== "(not set)")&&(allowedCountries.indexOf(match.Country) > -1)) {
+
+
+            let fromLang = this.getCountry(match.Country);
+            let toLang = 'en';
+            let text = match["Event Label"];
+
+            const API_KEY = "AIzaSyAadGmocvKJpV08em-cD1QofqUR8zO4v0Y";
+
+            let url = `https://translation.googleapis.com/language/translate/v2?key=${API_KEY}`;
+            url += '&q=' + encodeURI(text);
+            url += `&source=${fromLang}`;
+            url += `&target=${toLang}`;
+
+            fetch(url, {
+              method: 'GET',
+              headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+              }
+            })
+              .then(res => res.json())
+              .then((response) => {
+                //this.state.items[j].translatedVersion = response.data.translations[0].translatedText;
+               match.translatedVersion = response.data.translations[0].translatedText;
+
+
+              })
+              .catch(error => {
+                console.log("There was an error with the translation request: ", error);
+              });
+
+          }
+            return match;
+        })
+
+      this.setState(prevState => ({ items: oldStates }));
+      }
+
 
     handleClick() {
         this.setState(prevState => ({
             fullView: !prevState.fullView
         }));
     }
+    handleToggleClick() {
+      this.translateFeedback();
+    }
 
     clickEvent(eventID) {
         window.open('https://www.leovegas.com/en-de/sportsbook#event/'+eventID);
     }
 }
+
 
 export default EventList;
