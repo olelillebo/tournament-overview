@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+}
+
+
 body {
   background-color: #f2f2f2;
   padding: 12px 0;
@@ -5,6 +12,208 @@ body {
   font-family: roboto;
   font-size: 14px;
   font-weight: bold;
+  padding: 0;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+  justify-content: center;
+
+}
+
+
+@keyframes timer-slide-lt {
+  0%   { transform: rotate(135deg); }
+  50%  { transform: rotate(135deg); }
+  100%  { transform: rotate(315deg); }
+}
+@keyframes timer-slide-rt {
+  0%   { transform: rotate(-45deg); }
+  50%  { transform: rotate(135deg); }
+  100%  { transform: rotate(135deg); }
+}
+
+.timer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  zoom: 0.6;
+  padding: 20px;
+
+  .circle-timer{
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+    .timer-slot {
+      position: relative;
+      width: 100px;
+      height: 200px;
+      display: inline-block;
+      overflow: hidden;
+      float: left;
+
+      .timer-lt, .timer-rt {
+        border-radius: 50%;
+        position: relative;
+        top: 50%;
+        left: 0;
+        z-index: 15;
+        border: 10px solid white;
+        width: 180px;
+        height: 180px;
+        margin-left: -100px;
+        margin-top: -100px;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        z-index: 5;
+
+      }
+      .timer-lt{
+        animation: 30s linear infinite timer-slide-lt;
+        left: 100%;
+
+      }
+      .timer-rt{
+        animation: 30s linear infinite timer-slide-rt;
+
+      }
+    }
+    .count{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      font-size: 3rem;
+      color: lightgrey;
+      text-align: center;
+      margin-top: 40px;
+      font-family: sans-serif;
+
+    }
+    &.paused {
+      .timer-lt, .timer-rt {
+        animation-play-state: paused;
+        transition: all 0.5s;
+
+      }
+    }
+    &.paused, &:hover {
+      .timer-lt, .timer-rt {
+        border: 10px solid rgba(white, .5);
+        border-left-color: transparent;
+        border-top-color: transparent;
+        transition: all 0.5s;
+
+      }
+    }
+    &.paused {
+      .count {
+        color: rgba(white, 0.5);
+        transition: all 0.5s;
+
+      }
+    }
+  }
+}
+
+
+#fullView {
+  width: 100%;
+  text-align: center;
+  .comment {
+    font-size: 50px;
+    padding: 30px 60px;
+    //font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.5;
+
+
+  }
+
+  .translatedComment {
+    padding: 0 60px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    color: gray;
+  }
+
+  .flag-icon {
+    padding-top: 28px;
+    zoom: 3;
+    position: relative;
+
+    .score {
+      display: none;
+      font-weight: bolder;
+      font-size: 8px;
+      top: 0;
+      z-index: 2;
+      justify-content: center;
+      width: 100%;
+      position: absolute;
+    }
+
+    &.show { // for showing results
+      &:after {
+        content: "";
+        z-index: 1;
+        display: block;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.9);
+      }
+
+      .score {
+        display: block;
+      }
+    }
+
+    &.no-flag {
+      background-color: lightgrey;
+    }
+  }
+}
+
+.FeedbackWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.UserFeedbackBig {
+  //background-color: #1daa63;
+  border-radius: 50%;
+  cursor: pointer;
+  //margin: 12px 12px 6px 12px;
+  padding: 28px;
+  //width: 60px;
+
+  &.thumbsDown {
+    //background-color: #e60000;
+    -webkit-transform: scaleX(-1) rotate(180deg);
+    transform: scaleX(-1) rotate(180deg);
+
+    svg {
+      fill: #e60000;
+    }
+  }
+
+  svg {
+    fill: #1daa63;
+  }
+}
+
+#commentsView {
+  display: none;
 }
 
 #wrapper {
@@ -50,9 +259,10 @@ body {
       .row {
         display: flex;
         align-items: center;
-        height: 60px;
+        min-height: 55px;
         margin: 4px 0;
         background-color: white;
+        padding: 4px 0;
 
         .column {
           display: flex;
@@ -67,13 +277,13 @@ body {
             //display: none;
           }
           &.big {
-            min-width: 130px;
+            width: 100%;
           }
           &.medium {
-            min-width: 70px;
+            min-width: 80px;
           }
           &.small {
-            min-width: 30px;
+            //width: 30px;
           }
 
           &.hide {
@@ -92,7 +302,7 @@ body {
             }
             .flag-icon {
               border-radius: 3px;
-              zoom: 1.8;
+              zoom: 2.1;
               position: relative;
 
               .score {

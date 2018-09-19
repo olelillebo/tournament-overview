@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import _ from 'lodash'
 import axios from 'axios'
 import moment from 'moment'
-import myData from './feedback.json';
+import feedback from './feedback.json';
+import update from 'immutability-helper';
 
 
 
@@ -18,10 +19,9 @@ class EventList extends Component {
 
 
     state = {
-        matches: [],
-        items:
-          {myData: []}
-        ,
+        items: feedback,
+        randomItem: 0,
+        commentNumber: 0,
         hideStats: false,
           googleCode: [
             {
@@ -1683,40 +1683,51 @@ class EventList extends Component {
         ]
     }
 
-    componentDidMount() {
-        axios.get(`http://worldcup.sfg.io/matches.json`)
-            .then(res => {
-                const matches = res.data;
-                this.setState({ matches });
-            })
-      this.state.items={
-        myData,
-      }
+  tick() {
 
-      this.translateFeedback();
+    if(this.state.randomItem==this.state.commentNumber) {
+          this.setState(prevState => ({
+            randomItem: 0
+          }));
+        } else {
+          this.setState(prevState => ({
+            randomItem: prevState.randomItem + 1
+          }));
+        }
+  }
+
+     componentDidMount() {
+       this.interval = setInterval(() => this.tick(), 30000);
+       this.setMax();
     }
-
-
-    subComponent() {
-
-        let groupedResults = _.groupBy(this.state.matches, (result) => moment(result.datetime).startOf('day'));
-        var result = _.map(groupedResults, function(group, day){
-            return {
-                day: day,
-                events: group
-            }
-        });
-        return result;
-
-    }
-
 
     componentWillUnmount() {
         this.serverRequest.abort();
+      clearInterval(this.interval);
     };
+
+  setMax() {
+    const matchListLength = this.state.items
+      .sort( (a, b) => moment(b.convertedDate, 'DD-MM-YYYY').unix() - moment(a.convertedDate, 'DD-MM-YYYY').unix() || a["Event Label"] - b["Event Label"])
+      .filter(function (day1) {
+        return day1["Event Label"] !== "empty string" && day1["Event Label"] !== "(not set)";
+      })
+      .map((day, i) => {
+        return day
+      });
+
+
+    this.setState((prevState) => {
+      return { commentNumber: matchListLength.length  }
+    });
+  }
 
 
     render() {
+      this.updateDate();
+      //this.translateFeedback();
+
+
 
         var hideStats = "";
         if(this.state.hideStats === true){
@@ -1730,14 +1741,68 @@ class EventList extends Component {
                 return <div></div>;
         };
 
-       const matchListX = this.state.items.myData
+        const randomComment = this.state.items[this.state.randomItem];
+
+
+
+      const allowedCountries = ["Finland", "Denmark", "Germany", "Norway", "Sweden"];
+
+      const displayRandom = this.state.items
+        .filter(function (day1) {
+          return day1["Event Label"] !== "empty string" && day1["Event Label"] !== "(not set)";
+        })
+        .map((day, i) => {
+          if(i == this.state.randomItem) {
+              var originalVersion = "";
+            if((allowedCountries.indexOf(day.Country) > -1)) {
+                originalVersion = "("+day["Event Label"]+")";
+            }
+
+              return (
+            <div>
+                <div className="FeedbackWrapper">
+                    <div className={[this.getReaction(day["Avg Value"]), "UserFeedbackBig"].join(' ')}>
+                        <svg fill-rule="evenodd" className="UserFeedback__thumbsIcon___2PAAf" width="130" height="130" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M4.859 21.486H1.215C.544 21.486 0 20.913 0 20.207v-9.953c0-.706.544-1.279 1.215-1.279h3.644c.671 0 1.214.573 1.214 1.279v9.953c0 .706-.544 1.279-1.214 1.279zm-.334-2.511a.898.898 0 1 1-.001 1.795.898.898 0 0 1 .001-1.795zM6.584 10.447a.905.905 0 0 1 .821-.912c1.278-.088 2.119-.219 2.798-1.3 1.092-1.738 1.828-2.6 2.451-3.598.536-.861 1.084-2.512 1.153-3.364.077-.961.73-1.291 1.304-1.272.821.026 1.729.413 1.989 2.321.434 3.185-1.468 5.702-1.656 6.31-.481 1.555 4.749.444 6.083 1.074 1.831.865.6 2.029 1.012 2.793.367.679 1.409.332 1.459 1.787.046 1.339-.676 1.004-.894 2.183-.184.994.64 1.187.552 2.347-.103 1.344-1.388 1.245-1.681 1.851-.258.535.172 1.295-.077 1.787s-1.022 1.027-1.415 1.166c-1.843.653-4.988.337-6.817 0-1.986-.366-3.643-1.169-5.762-2.374-.343-.195-1.344-.807-1.343-1.211l.023-9.588z"></path></svg>
+                    </div>
+                    <div className="comment">
+                        {day.translatedLabel}
+                    </div>
+                    <div className="translatedComment">
+                      {originalVersion}
+                    </div>
+                    <div
+                      className={[this.getCountryCode.call(this, day.Country), "flag flag-icon flag-icon"].join(' ')}>
+                    </div>
+                </div>
+                <div className="timer">
+                    <div className="circle-timer">
+                        <div className="timer-slot">
+                            <div className="timer-lt">
+                            </div>
+                        </div>
+                        <div className="timer-slot">
+                            <div className="timer-rt">
+                            </div>
+                        </div>
+                        <div className="count">
+                            <div>{this.state.randomItem} /</div>
+                            <div>{this.state.commentNumber}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            ) }
+        });
+
+       const matchListX = this.state.items
+            .sort( (a, b) => moment(b.convertedDate, 'DD-MM-YYYY').unix() - moment(a.convertedDate, 'DD-MM-YYYY').unix() || a["Event Label"] - b["Event Label"])
             .filter(function (day1) {
                 return day1["Event Label"] !== "empty string" && day1["Event Label"] !== "(not set)";
             })
             .map((day, i) => {
+
          var eventLabel = "";
          if(day.translatedVersion !== undefined) {
-           console.log(day.Country)
            eventLabel = day.translatedVersion
          } else eventLabel = day["Event Label"];
             return (
@@ -1745,17 +1810,20 @@ class EventList extends Component {
                     <div>
                         <div className="row">
                             <div className="column small">
+                                <div className={[this.getReaction(day["Avg Value"]), "UserFeedback"].join(' ')}><svg fill-rule="evenodd" className="UserFeedback__thumbsIcon___2PAAf" width="20" height="20" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M4.859 21.486H1.215C.544 21.486 0 20.913 0 20.207v-9.953c0-.706.544-1.279 1.215-1.279h3.644c.671 0 1.214.573 1.214 1.279v9.953c0 .706-.544 1.279-1.214 1.279zm-.334-2.511a.898.898 0 1 1-.001 1.795.898.898 0 0 1 .001-1.795zM6.584 10.447a.905.905 0 0 1 .821-.912c1.278-.088 2.119-.219 2.798-1.3 1.092-1.738 1.828-2.6 2.451-3.598.536-.861 1.084-2.512 1.153-3.364.077-.961.73-1.291 1.304-1.272.821.026 1.729.413 1.989 2.321.434 3.185-1.468 5.702-1.656 6.31-.481 1.555 4.749.444 6.083 1.074 1.831.865.6 2.029 1.012 2.793.367.679 1.409.332 1.459 1.787.046 1.339-.676 1.004-.894 2.183-.184.994.64 1.187.552 2.347-.103 1.344-1.388 1.245-1.681 1.851-.258.535.172 1.295-.077 1.787s-1.022 1.027-1.415 1.166c-1.843.653-4.988.337-6.817 0-1.986-.366-3.643-1.169-5.762-2.374-.343-.195-1.344-.807-1.343-1.211l.023-9.588z"></path></svg></div>
+                            </div>
+                            <div className="column big">
+                                <div className="time">{eventLabel}</div>
+                            </div>
+                            <div className="column medium">
+                                <div className="time">{day.convertedDate}</div>
+                            </div>
+                            <div className="column small">
                                 <div className="cell">
                                     <div
-                                        className={[this.getCountryCode.call(this, day.Country), "flag flag-icon flag-icon"].join(' ')}>
+                                      className={[this.getCountryCode.call(this, day.Country), "flag flag-icon flag-icon"].join(' ')}>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="column small">
-                                <div className="time">{this.getReaction(day["Avg. Value"])}</div>
-                            </div>
-                            <div className="column small">
-                                <div className="time">{eventLabel}</div>
                             </div>
                         </div>
                     </div>
@@ -1764,23 +1832,35 @@ class EventList extends Component {
             )
         });
 
+
         return (
             <div>
-                <button onClick={this.handleToggleClick}>
-                    {this.state.hideStats ? 'ON' : 'OFF'}
-                </button>
-                <div className="header">
-                    <span>Feedback</span>
-                </div>
-                <TableHeader />
-                <div id="wrapper" className={this.state.fullView ? 'toggled' : ''}>
-                    <div id="events">
-                        {matchListX}
+                {/*<button onClick={this.handleToggleClick}></button>*/}
+                <div className="tabs">
+                    <div id="fullView">{displayRandom}</div>
+                    <div id="commentsView">
+                        <div className="header">
+                            <span>Feedback</span>
+                        </div>
+                        <TableHeader />
+                        <div id="wrapper" className={this.state.fullView ? 'toggled' : ''}>
+                            <div id="events">
+                                {matchListX}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         )
     }
+
+   convertToDate(dateString){
+        var year   = parseInt(dateString.substring(0,4));
+        var month  = parseInt(dateString.substring(4,6));
+        var day   = parseInt(dateString.substring(6,10));
+        var formattedDate = new Date(year, month-1, day);
+    return formattedDate;
+  }
 
 
     eventStatus(event){
@@ -1813,20 +1893,37 @@ class EventList extends Component {
   };
 
 
+    shuffleArray(array) {
+        let i = array.length - 1;
+        let j = Math.floor(Math.random() * (i + 1));
+        return array[j];
+    }
+
     getReaction(reaction){
         switch(reaction){
-            case 0: return "-";
-            case 1: return "+";
+            case "0.00": return "thumbsDown";
+            case "1.00": return "thumbsUp";
             default: return ""
         }
     }
 
-      translateFeedback() {
+      updateDate(){
+        this.state.items
+          .map((match, j) => {
+            const convertedDate = this.convertToDate(match.Date);
+            this.state.items[j].convertedDate = moment(convertedDate).format('DD-MM-YYYY');
+          })
+      }
+
+    translateFeedback() {
       const allowedCountries = ["Finland", "Denmark", "Germany", "Norway", "Sweden"];
-        this.state.items.myData
+
+      var oldStates = Object.assign({}, this.state)
+
+      oldStates.items
           .map((match, j) => {
 
-          if((match["Event Label"] !== "empty string" && match["Event Label"] !== "(not set)")&&(allowedCountries.indexOf(match.Country) > -1)) {
+            if((match["Event Label"] !== "empty string" && match["Event Label"] !== "(not set)")&&(allowedCountries.indexOf(match.Country) > -1)) {
 
 
             let fromLang = this.getCountry(match.Country);
@@ -1849,7 +1946,9 @@ class EventList extends Component {
             })
               .then(res => res.json())
               .then((response) => {
-                this.state.items.myData[j].translatedVersion = response.data.translations[0].translatedText
+                //this.state.items[j].translatedVersion = response.data.translations[0].translatedText;
+               match.translatedVersion = response.data.translations[0].translatedText;
+
 
               })
               .catch(error => {
@@ -1857,59 +1956,12 @@ class EventList extends Component {
               });
 
           }
+            return match;
         })
+
+      this.setState(prevState => ({ items: oldStates }));
       }
 
-
-    getWeatherCode = (weather) => {
-        return (
-            (() => {
-                switch (weather) {
-                    case "Sunny":
-                        return "wi-day-sunny";
-                    case "Cloudy":
-                        return "wi-cloudy";
-                    case "Partly Cloudy":
-                        return "wi-day-cloudy";
-                    case "Clear Night":
-                        return "wi-night-clear";
-                    case "Partly Cloudy Night":
-                        return "wi-night-alt-cloudy";
-                    default:
-                        return "wi-stars";
-                }
-            })()
-        )
-    };
-
-    getWindSpeed = (wind) => {
-        return (
-            (() => {
-                switch (true) {
-                    case (wind < 1):
-                        return "wi-wind-beaufort-0";
-                    case (wind < 6):
-                        return "wi-wind-beaufort-1";
-                    case (wind < 12):
-                        return "wi-wind-beaufort-2";
-                    case (wind < 20):
-                        return "wi-wind-beaufort-3";
-                    case (wind < 29):
-                        return "wi-wind-beaufort-4";
-                    case (wind < 39):
-                        return "wi-wind-beaufort-5";
-                    case (wind < 50):
-                        return "wi-wind-beaufort-6";
-                    case (wind < 62):
-                        return "wi-wind-beaufort-7";
-                    case (wind < 75):
-                        return "wi-wind-beaufort-8";
-                    default:
-                        return "wi-wind-beaufort-0";
-                }
-            })()
-        )
-    };
 
     handleClick() {
         this.setState(prevState => ({
@@ -1917,9 +1969,7 @@ class EventList extends Component {
         }));
     }
     handleToggleClick() {
-        this.setState(function(prevState) {
-            return {hideStats: !prevState.hideStats};
-        });
+      this.translateFeedback();
     }
 
     clickEvent(eventID) {

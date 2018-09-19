@@ -1,10 +1,159 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url("https://fonts.googleapis.com/css?family=Playfair+Display"); }
+
 body {
   background-color: #f2f2f2;
   padding: 12px 0;
   margin: 0;
   font-family: roboto;
   font-size: 14px;
-  font-weight: bold; }
+  font-weight: bold;
+  padding: 0; }
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+  justify-content: center; }
+
+@keyframes timer-slide-lt {
+  0% {
+    transform: rotate(135deg); }
+  50% {
+    transform: rotate(135deg); }
+  100% {
+    transform: rotate(315deg); } }
+
+@keyframes timer-slide-rt {
+  0% {
+    transform: rotate(-45deg); }
+  50% {
+    transform: rotate(135deg); }
+  100% {
+    transform: rotate(135deg); } }
+
+.timer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  zoom: 0.6;
+  padding: 20px; }
+  .timer .circle-timer {
+    width: 200px;
+    height: 200px;
+    position: relative; }
+    .timer .circle-timer .timer-slot {
+      position: relative;
+      width: 100px;
+      height: 200px;
+      display: inline-block;
+      overflow: hidden;
+      float: left; }
+      .timer .circle-timer .timer-slot .timer-lt, .timer .circle-timer .timer-slot .timer-rt {
+        border-radius: 50%;
+        position: relative;
+        top: 50%;
+        left: 0;
+        z-index: 15;
+        border: 10px solid white;
+        width: 180px;
+        height: 180px;
+        margin-left: -100px;
+        margin-top: -100px;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        z-index: 5; }
+      .timer .circle-timer .timer-slot .timer-lt {
+        animation: 30s linear infinite timer-slide-lt;
+        left: 100%; }
+      .timer .circle-timer .timer-slot .timer-rt {
+        animation: 30s linear infinite timer-slide-rt; }
+    .timer .circle-timer .count {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      font-size: 3rem;
+      color: lightgrey;
+      text-align: center;
+      margin-top: 40px;
+      font-family: sans-serif; }
+    .timer .circle-timer.paused .timer-lt, .timer .circle-timer.paused .timer-rt {
+      animation-play-state: paused;
+      transition: all 0.5s; }
+    .timer .circle-timer.paused .timer-lt, .timer .circle-timer.paused .timer-rt, .timer .circle-timer:hover .timer-lt, .timer .circle-timer:hover .timer-rt {
+      border: 10px solid rgba(255, 255, 255, 0.5);
+      border-left-color: transparent;
+      border-top-color: transparent;
+      transition: all 0.5s; }
+    .timer .circle-timer.paused .count {
+      color: rgba(255, 255, 255, 0.5);
+      transition: all 0.5s; }
+
+#fullView {
+  width: 100%;
+  text-align: center; }
+  #fullView .comment {
+    font-size: 50px;
+    padding: 30px 60px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.5; }
+  #fullView .translatedComment {
+    padding: 0 60px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    color: gray; }
+  #fullView .flag-icon {
+    padding-top: 28px;
+    zoom: 3;
+    position: relative; }
+    #fullView .flag-icon .score {
+      display: none;
+      font-weight: bolder;
+      font-size: 8px;
+      top: 0;
+      z-index: 2;
+      justify-content: center;
+      width: 100%;
+      position: absolute; }
+    #fullView .flag-icon.show:after {
+      content: "";
+      z-index: 1;
+      display: block;
+      position: absolute;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.9); }
+    #fullView .flag-icon.show .score {
+      display: block; }
+    #fullView .flag-icon.no-flag {
+      background-color: lightgrey; }
+
+.FeedbackWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.UserFeedbackBig {
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 28px; }
+  .UserFeedbackBig.thumbsDown {
+    -webkit-transform: scaleX(-1) rotate(180deg);
+    transform: scaleX(-1) rotate(180deg); }
+    .UserFeedbackBig.thumbsDown svg {
+      fill: #e60000; }
+  .UserFeedbackBig svg {
+    fill: #1daa63; }
+
+#commentsView {
+  display: none; }
 
 #wrapper {
   display: flex;
@@ -39,9 +188,10 @@ body {
       #wrapper #events .element .row {
         display: flex;
         align-items: center;
-        height: 60px;
+        min-height: 55px;
         margin: 4px 0;
-        background-color: white; }
+        background-color: white;
+        padding: 4px 0; }
         #wrapper #events .element .row .column {
           display: flex;
           flex-direction: column;
@@ -51,11 +201,9 @@ body {
           background-position: center;
           transition: background 0.8s; }
           #wrapper #events .element .row .column.big {
-            min-width: 130px; }
+            width: 100%; }
           #wrapper #events .element .row .column.medium {
-            min-width: 70px; }
-          #wrapper #events .element .row .column.small {
-            min-width: 30px; }
+            min-width: 80px; }
           #wrapper #events .element .row .column.hide {
             display: none; }
           #wrapper #events .element .row .column .cell {
@@ -67,7 +215,7 @@ body {
               font-size: 12px; }
             #wrapper #events .element .row .column .cell .flag-icon {
               border-radius: 3px;
-              zoom: 1.8;
+              zoom: 2.1;
               position: relative; }
               #wrapper #events .element .row .column .cell .flag-icon .score {
                 display: none;
@@ -117,7 +265,7 @@ body {
 
 .header {
   font-size: 16px;
-  background: url(http://www.leovegas.com/static/sports-client/images/pattern@2x.1445bc71.png) 0 0 repeat, linear-gradient(90deg, #f58249, #fd5c3c);
+  background: linear-gradient(90deg, #f58249, #fd5c3c);
   padding: 8px 16px;
   color: white;
   justify-content: space-between;
