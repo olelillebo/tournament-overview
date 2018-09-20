@@ -1784,8 +1784,8 @@ class EventList extends Component {
                             </div>
                         </div>
                         <div className="count">
-                            <div>{this.state.randomItem} /</div>
-                            <div>{this.state.commentNumber}</div>
+                            <div>#{this.state.randomItem}</div>
+                            {/*<div>{this.state.commentNumber}</div>*/}
                         </div>
                     </div>
                 </div>
